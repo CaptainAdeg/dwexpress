@@ -19,21 +19,14 @@
 			<a href="tel:+8 707 877 1839">8 707 877 1839</a>
 			<a href="tel:+1 223 456 1231">1 223 456 1231</a>
 	</div>
-	<div class="traking">
-		<input type="text">
+	<div class="tracking">
+		<input type="text" id="trackID" placeholder="Отслеживание">
+		<img src="public/img/geo.png" class="geoForTracking">
 	</div>
 	<div class="language">
-		<ul>
-			<li>
-				<a href="kz.php">Қаз</a>
-			</li>
-			<li>
-				<a href="index.php">Рус<a>
-			</li>
-			<li>
-				<a href="en.php">Eng</a>
-			</li>
-		</ul>
+		<a href="kz.php" class="languageItem">RU</a>
+		<a href="index.php" class="languageItem languageItemActive">EN</a>
+		<a href="en.php" class="languageItem">CN</a>
 	</div>
 	<!--<div class="menu">
 		<nav><div class="online_service"><h2>Онлайн сервисы</h2>
@@ -81,203 +74,7 @@
 				</ul>
 			</div>
 		</nav>
-<<<<<<< HEAD
-	</div>
 
-</header>
-<pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
-=======
 	</div>-->
 	<!--<nav>
   <ul class="topmenu">
@@ -327,4 +124,4 @@
 			<h4>87006033365</h4>
 	</div>-->
 </header> 
->>>>>>> 766a2dbd26abd92049b124e560a5c971ee9de374
+
