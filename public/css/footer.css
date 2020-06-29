@@ -1,1 +1,45 @@
-﻿
+﻿nav {
+	display: inline-flex;
+}
+
+
+.footer-menu {
+	padding: 6%;
+	width:1700px;
+	height: 400px;
+
+}
+.footer-menu ul {
+	width: 350px;
+}
+
+h2{
+	color:white;
+	position: relative;
+	top: 20px;
+}
+li {
+	list-style: none;
+	padding: 2%;
+	position: relative;
+	top:20px;
+}
+.footer-menu li > a {
+	color:grey;
+}
+.footer-bot {
+	background-color: #002847;
+}
+.footer-bot > img {
+	position: relative;
+	left: 100px;
+	width: 330px;
+	height: 100px;
+}
+
+
+
+
+
+
+
