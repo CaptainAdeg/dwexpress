@@ -1,1 +1,26 @@
-﻿
+﻿header {
+    display: flex;
+    background-color: #0c3152;
+    height: 90px;
+}
+.logo {
+    margin-left: 5%;
+}
+.contacts {
+    margin: auto 1%;
+}
+.contacts > a {
+    font-size: 1.5em;
+    display: block;
+    color: #0071bc;
+    text-decoration: none;
+}
+.logoImg {
+    height: 95px;
+}
+.menu {
+    display: none;
+}
+.tracking {
+    width: 25%;
+}
