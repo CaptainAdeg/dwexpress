@@ -8,7 +8,7 @@
 		}
 	</style>-->
 
-	<div class="footer-menu" style="background: url('app/img/бэк-05.svg');
+	<div class="footer-menu" style="background: url('public/img/back05.svg');
 	background-repeat: no-repeat;
 	background-size: cover;">
 		<nav class="menu-bot">
