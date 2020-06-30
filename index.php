@@ -57,7 +57,7 @@
 </pre>
 
 
-
+<div class="forAdilzhan"></div>
 	
 <?php require_once "templates/footer.php"; ?>
 <a href="#">вверх страницы</a>
