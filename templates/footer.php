@@ -59,15 +59,15 @@
 		</nav>
 	</div>
 	<div class="footer-bot">
-		<img src="app/img/logobot.png">
+		<img src="public/img/logobot.png">
 		<h4>87006033365</h4>
 			<h4>87006033365</h4>
    <span class="copyright">© 2003-2014 DWExpress</span>
    <p><a href="mailto:express@delivery.kz"></a></p>
    <div class="connect">
-   	<div class="inst"><a href="instagram.com"><img class="conlogo" id="insta" src="app/img/инста-04.svg"></a></div>
-   <a href=""><img class="conlogo" id="dwe" src="app/img/dwe 002-04.svg"></a>
-   <a href=""><img class="conlogo" id="whapp"src="app/img/ватсап-04.svg"></a>
+   	<div class="inst"><a href="instagram.com"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a></div>
+   <a href=""><img class="conlogo" id="dwe" src="public/img/social/wp.svg"></a>
+   <a href=""><img class="conlogo" id="whapp"src="public/img/social/wechat.svg"></a>
    </div>
 </div>
 </footer>
