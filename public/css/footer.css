@@ -1,12 +1,20 @@
 ﻿nav {
 	display: inline-flex;
 }
+@media only screen and (max-device-width: 48em) {
+.footer-menu {
+    display: block;
+}
+}
+
 
 
 .footer-menu {
+	
 	padding: 6%;
 	width:1700px;
 	height: 400px;
+
 
 }
 .footer-menu ul {
@@ -34,8 +42,25 @@ li {
 	position: relative;
 	left: 100px;
 	width: 330px;
-	height: 100px;
+	
 }
+.conlogo {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+ #dwe, #whapp {
+ 	bottom: 15.5em;
+ 	left: 39em;
+ }
+ #insta {
+ 	bottom: 9em;
+ 	left: 32em;
+ }
+ 
+ 
+
+
 
 
 
