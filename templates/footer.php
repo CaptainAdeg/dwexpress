@@ -46,6 +46,7 @@
 					<li><a href="">Правила упаковки</a></li>
 					<li><a href="">Закон о Почте</a></li>
 					<li><a href="">Типовой договор</a></li>
+
 				</ul>
 			</div>
 			<div class="about_us">
@@ -59,13 +60,9 @@
 		</nav>
 	</div>
 	<div class="footer-bot">
-		<img src="public/img/logobot.png">
-		<h4>87006033365</h4>
-			<h4>87006033365</h4>
-   <span class="copyright">© 2003-2014 DWExpress</span>
-   <p><a href="mailto:express@delivery.kz"></a></p>
+		<img src="public/img/logobot.svg">
    <div class="connect">
-   	<div class="inst"><a href="instagram.com"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a></div>
+   	<a href="instagram.com"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a>
    <a href=""><img class="conlogo" id="dwe" src="public/img/social/wp.svg"></a>
    <a href=""><img class="conlogo" id="whapp"src="public/img/social/wechat.svg"></a>
    </div>

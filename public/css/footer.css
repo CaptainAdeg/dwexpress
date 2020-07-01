@@ -10,7 +10,7 @@
 
 
 .footer-menu {
-	
+	display: flex;
 	padding: 6%;
 	width:1700px;
 	height: 400px;
@@ -18,8 +18,10 @@
 
 }
 .footer-menu ul {
-	width: 350px;
+	width: 300px;
 }
+
+
 
 h2{
 	color:white;
@@ -28,35 +30,69 @@ h2{
 }
 li {
 	list-style: none;
-	padding: 2%;
+	padding: 4%;
 	position: relative;
 	top:20px;
+	
+
 }
+
 .footer-menu li > a {
-	color:grey;
+	color:#DAD0E5;
+	text-decoration: none;
 }
 .footer-bot {
-	background-color: #002847;
+	background-color: #003250;
+	display: flex;
+	margin:0px 0px 1px 0px;
+	height: 200px;
 }
 .footer-bot > img {
-	position: relative;
+	display: flex;
+	position: sticky;
 	left: 100px;
-	width: 330px;
-	
+	width: 30%;
+	height: 100%;
+	border-right: 0.5px groove #fff;	
 }
 .conlogo {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	position: relative;
 }
- #dwe, #whapp {
- 	bottom: 15.5em;
- 	left: 39em;
+ #dwe, #whapp, #insta {
+ 	justify-content: center;
+	left: 10em;
+
  }
- #insta {
- 	bottom: 9em;
- 	left: 32em;
- }
+
+.online_service, .tarifs, .useful_know, .about_us {
+	position: relative;
+	text-align: center;
+	font-style: italic;
+
+}
+.online_service {
+	left: 3em;
+}
+.tarifs {
+	left: 2em;
+}
+.useful_know {
+	left: 2em;
+}
+.about_us {
+	left: 1.5em;	
+}
+.online_service > ul, .tarifs > ul, .useful_know > ul {
+	border-right: 0.5px solid #fff;
+}
+.useful_know > ul {
+	height: 334.5px;
+}
+
+
+
  
  
 
