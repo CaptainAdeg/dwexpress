@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <footer>
 	<!--<style type="text/css">
 		.online_service .tarifs .useful_know .about_us {
@@ -8,11 +9,10 @@
 		}
 	</style>-->
 
-	<div class="footer-menu" style="background: url('public/img/back05.svg');
-	background-repeat: no-repeat;
-	background-size: cover;">
-		<nav class="menu-bot">
-			<div class="online_service"><h2>Онлайн сервисы</h2>
+	<link rel="stylesheet" type="text/css" href="foter.css">
+		<div class="flex-container">
+		<div class="flex-item one">
+			<h2>Онлайн сервисы</h2>
 			<ul>
 				<li><a href="">Личный кабинет</a></li>
 				<li><a href="">Вызов курьера</a></li>
@@ -22,9 +22,10 @@
 				<li><a href="">Заключение договора</a></li>
 				<li><a href="">Сроки доставки</a></li>
 				<li><a href="">Инструкция iDocs</a></li>
-			</ul></div>
-			<div class="tarifs">
-				<h2>Тарифы и услуги</h2>
+			</ul>
+		</div>
+		<div class="flex-item two">
+			<h2>Тарифы и услуги</h2>
 				<ul>
 					<li><a href="">Экспресс доставка</a></li>
 					<li><a href="">Стандартная доставка</a></li>
@@ -35,9 +36,9 @@
 					<li><a href="">Классификатор зон</a></li>
 					<li><a href="">Интернет-магазинам</a></li>
 				</ul>
-			</div>
-			<div class="useful_know">
-				<h2>Полезно знать</h2>
+		</div>
+		<div class="flex-item three">
+			<h2>Полезно знать</h2>
 				<ul>
 					<li><a href="">Руководство по услугам</a></li>
 					<li><a href="">Частые вопросы</a></li>
@@ -48,25 +49,44 @@
 					<li><a href="">Типовой договор</a></li>
 
 				</ul>
-			</div>
-			<div class="about_us">
+		</div>
+		<div class="flex-item four">
 				<h2>О компании</h2>
 				<ul>
 					<li><a href="">Все контакты</a></li>
 					<li><a href="">Наша деятельность</a></li>
 					<li><a href="">Галерея</a></li>
 				</ul>
-			</div>
-		</nav>
-	</div>
+			</div>	
+</div>
+
+
 	<div class="footer-bot">
-		<img src="public/img/logobot.svg">
    <div class="connect">
+   	<a href="index.php"><img class="conlogo" id="dwe" src="public/img/logobot.svg"></a>
    	<a href="instagram.com"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a>
-   <a href=""><img class="conlogo" id="dwe" src="public/img/social/wp.svg"></a>
+   <a href=""><img class="conlogo" id="wp" src="public/img/social/wp.svg"></a>
    <a href=""><img class="conlogo" id="whapp"src="public/img/social/wechat.svg"></a>
    </div>
-</div>
+
+
+
+<style type="text/css">
+	@media screen and (max-width: 768px) {
+		.flex-container {
+			
+
+
+		}
+		.flex-item {
+			display: flex;
+		
+		} 
+
+
+
+	}
+</style>
 </footer>
 <script src="public/js/main.js"></script>
 </body>
