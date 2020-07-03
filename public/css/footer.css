@@ -81,7 +81,7 @@
 
  /* Отступ снизу */
     flex: 1 1 0;
-    order: 1; 
+    order: 2; 
     } /* Второй блок */
 		.three {
 			
@@ -99,7 +99,27 @@
 			position: relative;
 			right: 200px;
 		}
-	
+	@media (max-width: 768px) {
+				.flex-item {
+					flex-basis: 50%;
+					position: relative;
+					bottom: 300000px;
+				}
+				.flex-container {
+					height: 50%;
+				}
+				.flex-container {
+					position: relative;
+					bottom: 2000px;
+				}
+
+		}
+		@media (max-width: 320px) {
+				.flex-item, .footer-bot {
+					flex-basis: 50%;
+				}
+				
+		}
 
 
 

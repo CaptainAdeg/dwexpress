@@ -71,22 +71,6 @@
 
 
 
-<style type="text/css">
-	@media screen and (max-width: 768px) {
-		.flex-container {
-			
-
-
-		}
-		.flex-item {
-			display: flex;
-		
-		} 
-
-
-
-	}
-</style>
 </footer>
 <script src="public/js/main.js"></script>
 </body>
