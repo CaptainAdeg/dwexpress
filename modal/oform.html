@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oform</title>
+	<style>
+		.form-page {
+			margin: 88px;
+		}
+		.page-container{
+			text-align: center;
+			font-size: 30px;
+
+
+		}
+		
+		.page-container .country {
+
+		}
+		.page-container .page-info {
+			width: 40%;
+			display: flex;
+			grid-auto-flow: column;
+			margin-left: 121px;
+		}
+		.page-info input, .page-info-more input {
+			width: 374px;
+			height: 40px;
+			font-size:20px;
+			border-radius: 12px;
+			border-top-left-radius: 0px;
+			border-bottom-left-radius: 0px;
+			margin:13px;
+			text-align: center;
+			background-color: #EDEDED;
+		
+
+		}
+		.page-info input {
+
+			margin-left: 83px;
+
+		}
+
+		.page-info .icons {
+			    border: 3px solid #f00;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 40px;
+    position: absolute;
+    padding-right: 40px;
+    margin-top: 13px;
+   	margin-left: 40px;
+		}
+		.page-info-more .icons {
+			
+			position: absolute;
+			padding-right: 40px;
+			height: 42px;
+			margin-left: 383px;
+			margin-top: 13px;
+			
+			border-right:3px solid blue;
+			border-top:2px solid black;
+			border-bottom:2px solid black;
+			border-left:2px solid black;
+			border-bottom-left-radius: 10px;
+			border-top-left-radius: 10px;
+			background-size: 38px;
+		}
+		.page-pocket {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+
+		
+
+		
+	</style>
+</head>
+<body>
+		<section class="form-page">
+			<div class="page-container">
+				<nav class="country">
+					<button class="country russia">Россия</button>
+					<button class="country kazakhs">Казахстан</button>
+				</nav>
+				<hr>
+				<div class="page-info">
+					<div class="info-sender">
+						<div class="icons" style="background-image:url('human.svg');"></div>
+						<input type="text" class="name" placeholder="Ф.И.О отправителя">
+						<div class="icons" style="background-image:url('call.svg');"></div>
+						<input type="text" class="number1" placeholder="Номер телефона отправителя">
+					</div>
+					<div class="info-receiver">
+						<div class="icons" style="background-image:url('human.svg');"></div>
+						<input type="text" class="name" placeholder="Ф.И.О получателя">
+						<div class="icons" style="background-image:url('call.svg');"></div>
+						<input type="text" class="number2" placeholder="Номер телефона получателя">
+					</div>
+				</div>
+				<hr>
+				<div class="page-info-more">
+					<div class="more-delivery">
+						<div class="icons" style="background-image:url('Group 40.svg');"></div>
+						<input type="text" placeholder="Вес посылки"><br>
+						<div class="icons" style="background-image:url('world.svg');"></div>
+						<input type="text" placeholder="Область доставки"><br>
+						<div class="icons" style="background-image:url('world.svg');"></div>
+						<input type="text" placeholder="Город доставки"><br>
+						<div class="icons" style="background-image:url('world.svg');"></div>
+						<input type="text" placeholder="Адрес доставки">
+					</div>
+					<hr>
+					<div class="more-price">
+						<div class="icons" style="background-image:url('');"></div>
+						<input type="text" placeholder="Трекинг номер посылки"><br>
+						<div class="icons" style="background-image:url('');"></div>
+						<input type="text" placeholder="Описание вложения"><br>
+						<div class="icons" style="background-image:url('');"></div>
+						<input type="text" placeholder="Объявленная стоимость">
+					</div>
+				</div>
+				<hr>
+				<div class="page-pocket">
+					<div class="pocket-col1"><p><input name="dzen" type="radio" value="nedzen">Пленка+пакет</p>
+						<p><input name="dzen" type="radio" value="pdzen" checked>Коробка</p>
+    </div>
+					 <div class="pocket-col2">
+					 	<p><input name="dzen" type="radio" value="dzen">Коробка+уголок</p>
+    <p><input name="dzen" type="radio" value="pdzen" checked>Обрещетка</p></div>
+    
+				</div>
+				<hr>
+				<div class="page-service">
+					<button>Услугу фотоотчёта</button>
+					<i></i>
+					<button>Оформить заказ</button>
+				</div>	
+			</div>
+		</section>
+</body>
+</html>
