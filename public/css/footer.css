@@ -1,4 +1,6 @@
-﻿.footer-bot {
+﻿
+
+.footer-bot {
 		display: inline-flex;
 		
 		width: 100%;
@@ -33,12 +35,14 @@
 			flex-direction: row;
 			margin: 0px 0px 20px 0px;
 			flex-wrap: wrap;
-			background: url('../img/back05.svg');
-			background-size: cover;
+			background-color: #011B37;
 			height: 300px;
-			text-align:center;
+			text-align:left;
 			position: relative;
 			top: 20px;
+			padding-bottom: 190px;
+			padding-left: 40px;
+			font-size: 21px;
 		}
 		
 		.flex-item {
@@ -54,7 +58,7 @@
 			
 
 			
-	font-style: italic;
+	
 
 		}
 		.flex-item > h2 {
@@ -65,10 +69,11 @@
 		.flex-item > ul > li {
 			height: 20px;
 			list-style:none;
+			margin-top: 30px;
 		}
 		.flex-item > ul > li > a {
 			color: #fff;
-			text-decoration: none;
+			
 
 		}
 
@@ -76,12 +81,43 @@
 
 			flex: 1 1 0;
 			order: 1;
+			margin-left: 109px;
+
 		}
+		.one  li {
+			
+			margin-top: 30px;
+			list-style-type: none;
+
+		}
+
+		.one a {
+			color: white;
+		}
+		
+		.one .footer-line {
+		position: relative;
+		bottom: 320px;
+		margin-right: 50px;
+		background-color: #13A2FF;
+		}
+		.sub2 img {
+					display: flex;
+    width: 70px;
+    height: 46px;
+    position: relative;
+    bottom: 152px;
+    right: 68px;
+    margin-top: 9px;
+				}
+		
 		.two {
 
  /* Отступ снизу */
     flex: 1 1 0;
     order: 1; 
+    position: relative;
+    left: 135px;
     } /* Второй блок */
 		.three {
 			

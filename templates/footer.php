@@ -9,55 +9,59 @@
 		}
 	</style>-->
 
-	<link rel="stylesheet" type="text/css" href="foter.css">
+	
+
 		<div class="flex-container">
 		<div class="flex-item one">
-			<h2>Онлайн сервисы</h2>
+			<h2>Обслуживание клиентов</h2>
+			<div class="sub1">
 			<ul>
-				<li><a href="">Личный кабинет</a></li>
-				<li><a href="">Вызов курьера</a></li>
-				<li><a href="">Заказ обратного звонка</a></li>
-				<li><a href="">Тарифный калькулятор</a></li>
-				<li><a href="">Служба контроля качества</a></li>
-				<li><a href="">Заключение договора</a></li>
-				<li><a href="">Сроки доставки</a></li>
-				<li><a href="">Инструкция iDocs</a></li>
+				<li><a href="">Центр помощи</a></li>
+				<li><a href="">Начало работы с DWExpress</a></li>
+				<li><a href="">Запросы</a></li>
 			</ul>
+		</div><br>
+			<div class="sub2">
+				
+			<ul>
+				<li id="nu1"><a href="">Напишите нам</a></li>
+				<li id="nu2"><a href="">Позвоните нам</a></li>
+				<li id="nu3"><a href="">Все способы связи</a></li>
+			</ul>
+			<img src="public/img/footer-icons/chat.svg" alt="">
+			<img src="public/img/footer-icons/call.svg" alt="">
+			<img src="public/img/footer-icons/signal.svg" alt="">
+		</div>
+			<hr width="50%" size="4" class="footer-line">
 		</div>
 		<div class="flex-item two">
-			<h2>Тарифы и услуги</h2>
+			<h2>Этот сайт</h2>
 				<ul>
-					<li><a href="">Экспресс доставка</a></li>
-					<li><a href="">Стандартная доставка</a></li>
-					<li><a href="">Внутригородская доставка</a></li>
-					<li><a href="">Международная доставка</a></li>
-					<li><a href="">Центральная Азия</a></li>
-					<li><a href="">Дополнительные услуги</a></li>
-					<li><a href="">Классификатор зон</a></li>
-					<li><a href="">Интернет-магазинам</a></li>
+					<li><a href="">Отслеживание</a></li>
+					<li><a href="">Отправка</a></li>
+					<li><a href="">Услуги</a></li>
+					<li><a href="">Центры DWE</a></li>
+					<li><a href="">Мой профиль</a></li>
 				</ul>
 		</div>
 		<div class="flex-item three">
-			<h2>Полезно знать</h2>
+			<h2>Информация о компании</h2>
 				<ul>
-					<li><a href="">Руководство по услугам</a></li>
-					<li><a href="">Частые вопросы</a></li>
-					<li><a href="">Способы оплаты</a></li>
-					<li><a href="">Правила пересылки</a></li>
-					<li><a href="">Правила упаковки</a></li>
-					<li><a href="">Закон о Почте</a></li>
-					<li><a href="">Типовой договор</a></li>
-
+					<li><a href="">О компании DWE</a></li>
+					<li><a href="">Пресса</a></li>
+					<li><a href="">Для инвесторов</a></li>
+					<li><a href="">Вакансий</a></li>
+					<li><a href="">Устойчивое развитие и участие</a></li>
 				</ul>
 		</div>
-		<div class="flex-item four">
+		<!--<div class="flex-item four">
 				<h2>О компании</h2>
 				<ul>
 					<li><a href="">Все контакты</a></li>
 					<li><a href="">Наша деятельность</a></li>
 					<li><a href="">Галерея</a></li>
 				</ul>
-			</div>	
+			</div>	-->
 </div>
 
 

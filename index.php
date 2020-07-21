@@ -54,7 +54,7 @@
 
 		</section>
 
-		<HR WIDTH="1030px" ALIGN="center" SIZE="5">
+		<HR WIDTH="1030px" ALIGN="center" SIZE="5" class="middle-line">
 
 		<h1 class="middle-text">Работая с нами вы получаете</h1>
 
