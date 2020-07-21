@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>modalwindow</title>
-	<style type="text/css">
-		 body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;}
 
 #myBtn {
   background-color: #9C27B0;
@@ -40,7 +35,7 @@
     padding: 0;
     border-radius: 30px;
     width: 466px;
-    height: 241px;
+    height: 216px;
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -101,11 +96,11 @@
 }
 .modal-content input {
   width: 300px;
-  height: 40px;
-  margin-left: 119px;
+  height: 53px;
+  margin-left: 85px;
  position: relative;
  
-  margin-top: 69px;
+ bottom: 18px;
  text-align: center;
  border-radius: 36px;
  font-size: 23px;
@@ -125,79 +120,14 @@ left: 20px;
 bottom:19px;
 color: white;
 }
-.modal-content img{
+.modal-content .logo1{
   position: absolute;
-  bottom: 116px;
-  right: 358px;
+left: 6px;
+top: 49px;
 }
-.b-but {
-	background-color:#00AEFF;
-	font-size:28px;
-	color:white;
-	margin-left: 160px;
-  width: 256px;
-  height: 48px;
-	border-radius: 36px;
-  text-align:center;
-  position: relative;
-  bottom: 79px;
-
+.modal-content .logo2 {
+  position: absolute;
+  right: 19px;
+  top: 87px;
+  width: 40px;
 }
-	</style>
-
-</head>
-<body>
-	<button id="myBtn">Открыть окно</button>
-
-
-<div id="myModal" class="modal">
- 
-  <!--<div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-      <h2 class="zayava"><b id="ostav">Оставить заявку</b></h2>
-     <input type="text" name="name" id="name" placeholder="Ваше имя" title="Ваше имя">
-      <input class="b-input inputmask" type="text" name="phone" id="phone" placeholder="Телефон" title="Телефон">
-      <button class="b-but" type="submit">Отправить</button>
-  </div>-->
-  <div class="modal-content">
-    <div><span class="close">&times;</span></div>
-	<input type="text" name="name" id="na" placeholder="Номер телефона/почта " title="Ваше имя">
-  <img src="dweoflogo/call.svg" alt="">
-  <p>
-	<button class="b-but" type="submit">Отправить</button>
-</p>
-</div>
-
-
-</div>
-
-	<script type="text/javascript">
-	var modal = document.getElementById('myModal');
-
-
-var btn = document.getElementById("myBtn");
-
-
-var span = document.getElementsByClassName("close")[0];
-
-
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-	</script>
-
-</body>
-</html>

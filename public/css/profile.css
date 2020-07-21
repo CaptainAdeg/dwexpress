@@ -1,0 +1,101 @@
+section {
+      		margin: 5%;
+      	}
+      	section hr {
+			height: 3px;
+			background-color: #129AFF;
+      	}
+
+      	section #who {
+		margin-left: 100px;
+
+      	}
+      	section #human {
+      		position: relative;
+      		top: 80px;
+      	}
+      	.profile-info {
+			color: #0D6C9A;
+			text-align: center;
+			font-size: 35px;
+      	}
+      	.profile-info, .desc {
+			font-size: 35px;
+      	}
+
+         .profile {
+         display: flex;
+         flex-direction: row;
+         }
+         .profile-display {
+         display: flex;
+         height: 528px;
+         text-align: center;
+         
+         }
+         .profile-display .col {
+         border: 2px solid #05365F;
+         margin: 11px;
+         background-image: url('../public/img/icons/card.svg');
+        background-repeat: no-repeat;
+        background-position-y:10px;
+        background-position-x:8px;
+
+
+         }
+         .profile-display #col4  {
+			height: 630px;
+         }
+         .profile-display .col h2{
+        	color: #042E49;
+         }
+         .profile-display .col p{
+        	font-size: 24px;
+        	color: #02243F; 
+         }
+          .profile-display .col p a{
+        	font-size: 20px;
+        	color: #17BCFF;
+         }
+         .service {
+         	margin-top: 10%;
+         }
+         .service-display {
+         	display: flex;
+         }
+         .service-display a {
+         	color: #15A6E4;
+         }
+
+         .display-type .row {
+         	font-size: 25px;
+    		margin-left: 97px;
+   			position: relative;
+    		bottom: 80px;
+         }
+         .display-info {
+         	border: 3px solid #13A2FF;
+         	 border-radius: 20px;
+         	display: flex;
+         	margin-left: 340px;
+         }
+         .display-info ul {
+         display: inline-block;
+        
+         }
+         .display-info ul img {
+         display: flex;
+
+    width: 50px;
+         }
+         .display-info li {
+         	padding: 13px;
+         	list-style-type: none;
+         }
+        
+         .display-info span {
+         	padding: 20px;
+         }
+         .display-info .status {
+			margin-left: 20px;
+         }
