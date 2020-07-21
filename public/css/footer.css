@@ -1,5 +1,4 @@
 ﻿
-
 .footer-bot {
 		display: inline-flex;
 		
@@ -156,18 +155,10 @@
 				}
 				
 		}
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
-
+.toTop {
+	position: fixed;
+	padding: 6px;
+	top: calc(100vh - 60px);
+	left: 5px;
+	height: 50px;
+}

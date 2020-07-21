@@ -74,7 +74,7 @@
    </div>
 
 
-
+   <img onclick="location.href = '#'" src="public/img/toTop.png" class="toTop">
 </footer>
 <script src="public/js/main.js"></script>
 </body>
