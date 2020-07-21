@@ -1,4 +1,4 @@
-﻿* {
+* {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -177,8 +177,31 @@ body, html {
 }
 .middle-line {
 	position: relative;
+<<<<<<< HEAD
 	left: 10vw;
 	width: 80vw;
 	height: 4px;
 	background-color: #13A2FF;
+=======
+	background-color: #13A2FF;
+	width:1030px; 
+	left: 243px;
+	text-align: center; 
+	height: 3px;
+}
+.banner-text {
+	font-size: 33px;
+    text-align: center;
+    padding: 170px;
+    color: #02628B;
+}
+.banner {
+margin-top: 300px;
+position: relative;
+top: 27px;
+}
+.banner-image {
+width: 100%;
+height: 100%;
+>>>>>>> a9f15a5d6a7b1dd3c7f6f8cad1a47a5486611bf6
 }
