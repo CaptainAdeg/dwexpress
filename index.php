@@ -28,27 +28,33 @@
 			<div class="function-line">
 				<div class="square" id="but1" >
 					<span class="function-square">
-						<img class="square-img" src="public/img/icons/икона1-05.svg">
+						<img class="square-img" src="public/img/main-page-icons/clock.svg">
 					</span>
-					<span class="square-text">Отслеживание</span>
+					<span class="square-text">Доставка ко<br> времени</span>
 				</div>
 				<div class="square" id="but2">
 					<span class="function-square">
-						<img class="square-img" src="public/img/icons/икона2-05.svg">
+						<img class="square-img" src="public/img/main-page-icons/cart.svg">
 					</span>
-					<span class="square-text">Расчитать стоимость</span>
+					<span class="square-text">Для интернет-<br>магазинов</span>
 				</div>
 				<div class="square" id="but3">
 					<span class="function-square">
-						<img class="square-img" src="public/img/icons/икона3-05.svg">
+						<img class="square-img" src="public/img/main-page-icons/world.svg">
 					</span>
-					<span class="square-text">Обратный звонок</span>
+					<span class="square-text">Доставка по <br>миру</span>
 				</div>
 				<div class="square" id="but4">
 					<span class="function-square">
-						<img class="square-img" src="public/img/icons/икона4-05.svg">
+						<img class="square-img" src="public/img/main-page-icons/flag.svg">
 					</span>
-					<span class="square-text">Личный кабинет</span>
+					<span class="square-text">Эксперсс<br>доставка</span>
+				</div>
+								<div class="square" id="but3">
+					<span class="function-square">
+						<img class="square-img" src="public/img/main-page-icons/van.svg">
+					</span>
+					<span class="square-text">Прямая машина</span>
 				</div>
 			</div>
 		</div>
