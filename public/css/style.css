@@ -7,6 +7,61 @@ body, html {
 	overflow-x: hidden; /* Управляем отображением содержание блочного элемента по горизонтали */
 	scroll-behavior: smooth;
 }
+.dropdown-menu {
+	width: 100%;
+	height: auto;
+	background-color: #AEC2D4;
+	text-align: center;
+
+}
+.dropbtn {
+    background-color: #AEC2D4;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	width: 350px;
+    outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-flex;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-top: 50px;
+    background-color: #C3DDF0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	
+}
+#drop1 .dropdown-content a {
+	padding:12px 122px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #40657C;
+    padding: 12px 102px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 .slider {
 	display: block;
 	position: relative;
@@ -104,10 +159,16 @@ body, html {
 	transition: .17s linear;
 	text-align: center;
 	color: #405F7C;
+	outline: none;
 }
+.square:focus {
+	background-color: red;
+}
+
 .function-square {
 	margin-bottom: 15px;
 }
+
 .square-text {
 	font-size: 17px;
 	position: relative;

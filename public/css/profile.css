@@ -18,14 +18,22 @@ section {
 			color: #0D6C9A;
 			text-align: center;
 			font-size: 35px;
+            margin-top: 65px;
       	}
-      	.profile-info, .desc {
+      	.profile-info, .desc, .desc2 {
 			font-size: 35px;
+
       	}
+        .desc2 {
+             margin-top: 90px;
+            position: relative;
+            top: 30px;
+        }
 
          .profile {
          display: flex;
          flex-direction: row;
+         margin-top: 110px;
          }
          .profile-display {
          display: flex;
@@ -39,7 +47,7 @@ section {
          background-image: url('../public/img/icons/card.svg');
         background-repeat: no-repeat;
         background-position-y:10px;
-        background-position-x:8px;
+        background-position-x:6px;
 
 
          }
@@ -58,7 +66,7 @@ section {
         	color: #17BCFF;
          }
          .service {
-         	margin-top: 10%;
+         	margin-top: 25%;
          }
          .service-display {
          	display: flex;
@@ -76,26 +84,49 @@ section {
          .display-info {
          	border: 3px solid #13A2FF;
          	 border-radius: 20px;
-         	display: flex;
-         	margin-left: 340px;
+         	display: block;
+            width: 100%;
+         	
          }
          .display-info ul {
          display: inline-block;
+    padding-right: 1200px;
+    margin-left: 30px;
+    margin-top: 38px;
+    margin-bottom: 50px;
         
          }
          .display-info ul img {
          display: flex;
+         position: relative;
+         top: 30px;
 
     width: 50px;
          }
          .display-info li {
-         	padding: 13px;
+       
          	list-style-type: none;
          }
         
          .display-info span {
-         	padding: 20px;
+         	padding: 160px;
+            font-size: 20px;
          }
-         .display-info .status {
-			margin-left: 20px;
+         #header1, #header2, #header3 {
+            margin-left: 177px;
+    padding: 50px;
+    padding-right: 25px;
          }
+         #header1, #header2, #header3 {
+            position: relative;
+         }
+         #header1 {
+            right: 65px;
+         }
+         #header2 {
+            right: 20px;
+         }
+         #header3 {
+            left: 15px;
+         }
+         

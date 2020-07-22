@@ -2,7 +2,43 @@
 <?php require_once "templates/header.php"; ?>
 
 <main>
+	
 	<section>
+	<div class="dropdown-menu">
+		<div class="dropdown" id="drop1">
+			<button class="dropbtn">Онлайн сервисы</button>
+			<div class="dropdown-content">
+				<a href="#">Личный кабинет</a>
+				<a href="#">Сроки доставки</a>
+			</div>
+		</div>
+		<div class="dropdown" id="drop2">
+			<button class="dropbtn">О компаний</button>
+			<div class="dropdown-content">
+				<a href="#">Все контакты</a>
+				<a href="#">Наша деятельность</a>
+				<a href="#">Галерея</a>
+			</div>
+		</div>
+		<div class="dropdown" id="drop3">
+			<button class="dropbtn">Тарифы и услуги</button>
+			<div class="dropdown-content">
+				<a href="#">Экспресс доставка</a>
+				<a href="#">Международная доставка</a>
+			</div>
+		</div>
+		<div class="dropdown" id="drop4">
+			<button class="dropbtn">Полезно знать</button>
+			<div class="dropdown-content">
+				<a href="#">Руководства по услугам</a>
+				<a href="#">Частые вопросы</a>
+				<a href="#">Способы оплаты</a>
+				<a href="#">Правила упаковки</a>
+				<a href="#">Закон о Почте</a>
+				<a href="#">Типовый договор</a>
+			</div>
+		</div>
+	</div>
 			<div class="slider">
                 <div id="img-container" class="images-container">
                 <img class="slider-item fade" src="public/img/slider.png" alt="">
@@ -26,25 +62,25 @@
 	<section>
 		<div class="function">
 			<div class="function-line">
-				<div class="square" id="but1" >
+				<div class="square" id="but1" tabindex="1">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона1-05.svg">
 					</span>
 					<span class="square-text">Отслеживание</span>
 				</div>
-				<div class="square" id="but2">
+				<div class="square" id="but2" tabindex="1">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона2-05.svg">
 					</span>
 					<span class="square-text">Рассчитать стоимость</span>
 				</div>
-				<div class="square" id="but3">
+				<div class="square" id="but3" tabindex="1">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона3-05.svg">
 					</span>
 					<span class="square-text">Обратный звонок</span>
 				</div>
-				<div class="square" id="but4">
+				<div class="square" id="but4" tabindex="1">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона4-05.svg">
 					</span>

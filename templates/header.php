@@ -14,22 +14,35 @@
 <header>
 	<div class="logo">
 		<a href="index.php">
-			<img src="public/img/logo.png" alt="logo dwexpress" class="logoImg">
+			<img src="public/img/логотип.svg" alt="logo dwexpress" class="logoImg">
 		</a>
     </div>
+	<!--<div class="tracking">
+		<input type="text" id="trackID" placeholder="Отслеживание">
+		<img src="public/img/geo.png" class="geoForTracking">
+	</div>-->
+	<div class="profile">
+			<a href="">
+				<img src="public/img/white-prof.svg">
+			</a>
+	</div>
 	<div class="contacts">
 			<a href="tel:+8 707 877 1839">8 707 877 1839</a>
 			<a href="tel:+1 223 456 1231">1 223 456 1231</a>
 	</div>
-	<div class="tracking">
-		<input type="text" id="trackID" placeholder="Отслеживание">
-		<img src="public/img/geo.png" class="geoForTracking">
-	</div>
-	<div class="language">
-		<a href="kz.php" class="languageItem">RU</a>
+	<!--<div class="language">
+		<a href="" class="languageItem">RU</a>
 		<a href="index.php" class="languageItem languageItemActive">EN</a>
 		<a href="en.php" class="languageItem">CN</a>
-	</div>
+	</div>-->
+	<div class="lan-dropdown">
+  <div class="lan-dropbtn">RU</div>
+  <div class="lan-dropdown-content">
+    <a href="">RU</a>
+    <a href="index.php">EN</a>
+    <a href="en.php">CN</a>
+  </div>
+</div>
 	<!--<div class="menu">
 		<nav><div class="online_service"><h2>Онлайн сервисы</h2>
 			<ul class="submenu">
