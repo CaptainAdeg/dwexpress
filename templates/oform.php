@@ -1,6 +1,11 @@
-<?php require_once "templates/header.php"; ?>
+<!--<html><head>
 
-    <link rel="stylesheet" href="../public/css/oform.css">
+<title>oform</title>
+
+<body>-->
+   <?php require_once "header.php"; ?>
+   <link rel="stylesheet" href="../public/css/header.css">
+    
       <section class="form-page">
          <div class="page-container">
             <nav class="country">
@@ -72,5 +77,6 @@
                <button class="final">Оформить заказ</button>
             </div>
          </div>
-      </section>
- <?php require_once "templates/footer.php"; ?>
+      </section>      
+     <!-- </body>
+ </html>-->

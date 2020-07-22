@@ -99,6 +99,8 @@ body, html {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	border: 3px solid #13A2FF;
+	border-radius: 30px;
 	transition: .17s linear;
 	text-align: center;
 	color: #405F7C;

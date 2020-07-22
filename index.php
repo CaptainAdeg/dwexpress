@@ -28,33 +28,27 @@
 			<div class="function-line">
 				<div class="square" id="but1" >
 					<span class="function-square">
-						<img class="square-img" src="public/img/main-page-icons/clock.svg">
+						<img class="square-img" src="public/img/icons/икона1-05.svg">
 					</span>
-					<span class="square-text">Доставка ко<br> времени</span>
+					<span class="square-text">Отслеживание</span>
 				</div>
 				<div class="square" id="but2">
 					<span class="function-square">
-						<img class="square-img" src="public/img/main-page-icons/cart.svg">
+						<img class="square-img" src="public/img/icons/икона2-05.svg">
 					</span>
-					<span class="square-text">Для интернет-<br>магазинов</span>
+					<span class="square-text">Рассчитать стоимость</span>
 				</div>
 				<div class="square" id="but3">
 					<span class="function-square">
-						<img class="square-img" src="public/img/main-page-icons/world.svg">
+						<img class="square-img" src="public/img/icons/икона3-05.svg">
 					</span>
-					<span class="square-text">Доставка по <br>миру</span>
+					<span class="square-text">Обратный звонок</span>
 				</div>
 				<div class="square" id="but4">
 					<span class="function-square">
-						<img class="square-img" src="public/img/main-page-icons/flag.svg">
+						<img class="square-img" src="public/img/icons/икона4-05.svg">
 					</span>
-					<span class="square-text">Эксперсс<br>доставка</span>
-				</div>
-								<div class="square" id="but3">
-					<span class="function-square">
-						<img class="square-img" src="public/img/main-page-icons/van.svg">
-					</span>
-					<span class="square-text">Прямая машина</span>
+					<span class="square-text">Личный кабинет</span>
 				</div>
 			</div>
 		</div>
@@ -94,6 +88,19 @@
 		<p class="banner-text">Большой опыт работы в логистике, отлаженные схемы оказания
  услуг и надежные ресурсы, позволяют нам быстро и 
 качественно доставить Ваши посылки!</p>
+<!--<hr class="line-through-page">
+<div class="extra-page">
+	<p>Начать отправлять просто</p>
+	<div class="rectangle">
+		<div class="block"><span>1</span><p>Рассчитайте<br>стоимость</p></div>
+		<div class="block"><span>2</span><p>Вызовите<br>
+курьера</p></div>
+		<div class="block"><span>3</span><p>Подготовьте<br>
+отправку</p></div>
+	</div>
+	<hr class="last">
+</div>-->
+
 		<div class="banner">
 			<img src="public/img/banner.svg" class="banner-image">
 		</div>

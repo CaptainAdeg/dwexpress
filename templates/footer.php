@@ -28,9 +28,9 @@
 				<li id="nu2"><a href="">Позвоните нам</a></li>
 				<li id="nu3"><a href="">Все способы связи</a></li>
 			</ul>
-			<img src="public/img/footer-icons/chat.svg" alt="">
-			<img src="public/img/footer-icons/call.svg" alt="">
-			<img src="public/img/footer-icons/signal.svg" alt="">
+			<img src="public/img/footer-icons/chat.svg">
+			<img src="public/img/footer-icons/call.svg">
+			<img src="public/img/footer-icons/signal.svg">
 		</div>
 			<hr width="50%" size="4" class="footer-line">
 		</div>
