@@ -179,10 +179,12 @@
 <div id="myModal3" class="modal">
 <div class="modal-content3">
     <div><span class="close" data-modal="myModal3">&times;</span></div>
-	<input type="text" name="name" id="na3" placeholder="Номер телефона/почта " title="Ваше имя">
-  <img src="dweoflogo/call.svg" alt="">
+	<input type="text" name="name" id="third1" placeholder="Ваше имя" title="Ваше имя">
+	<input type="text" name="name" id="third2" placeholder="Номер телефона" title="Номер телефона">
+	<input type="text" name="name" id="third3" placeholder="Электронный ящик" title="Электронный ящик">
+	<input type="text" name="name" id="third4" placeholder="Примечание" title="Примечание">
   <p>
-	<button class="b-but" type="submit">Отправить</button>
+	<button class="b-but3" type="submit">Отправить</button>
 </p>
 </div>
 </div>
@@ -190,4 +192,4 @@
 
 	<script type="text/javascript" src="public/js/modal.js"></script>
 <?php require_once "templates/footer.php"; ?>
-<a href="#">вверх страницы</a>    
+<a href="#"></a>    

@@ -94,7 +94,7 @@ height: 40px;
   position: relative;
   top: 70px;
    width: 471px;
-   background-image: url('../img/modal-icons/position.svg');
+   background-image: url('../img/modal-icons/modal2/position.svg');
    background-repeat:no-repeat;
    background-position-x: 13px;
     background-position-y: 3px;
@@ -107,7 +107,7 @@ height: 40px;
    border-radius: 16px;
 }
 .modal-content2 #scale {
-  background-image: url(../img/modal-icons/scale.svg);
+  background-image: url(../img/modal-icons/modal2/scale.svg);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position-x:10px;
@@ -123,6 +123,7 @@ height: 40px;
 .modal-content2 .input4 {
   margin-top: 80px;
   width: 473px;
+  box-sizing: border-box;
   height: 68px;
 }
 .modal-content2 p {

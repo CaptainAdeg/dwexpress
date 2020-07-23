@@ -160,6 +160,7 @@ body, html {
 	text-align: center;
 	color: #405F7C;
 	outline: none;
+	background-color: white;
 }
 .square:focus {
 	background-color: red;
@@ -239,15 +240,15 @@ body, html {
 	top: 3em;
 }
 .middle-line {
-	position: relative;
-	left: 10vw;
-	width: 80vw;
-	height: 4px;
-	background-color: #13A2FF;
-	width:1030px; 
-	left: 243px;
-	text-align: center; 
-	height: 3px;
+    position: relative;
+    left: 10vw;
+    width: 80vw;
+    height: 4px;
+    background-color: #13A2FF;
+    width: 990px;
+    left: 215px;
+    text-align: center;
+    height: 3px;
 }
 .banner-text {
 	font-size: 33px;

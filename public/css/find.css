@@ -70,11 +70,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   height: 53px;
   margin-left: 85px;
  position: relative;
- 
- bottom: 18px;
+ bottom: 2px;
  text-align: center;
  border-radius: 36px;
- font-size: 23px;
+ font-size: 19px;
  border:1px solid white;
  outline: none;
  border: 2px solid #129AFF;
