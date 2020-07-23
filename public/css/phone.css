@@ -26,7 +26,7 @@
 }
 
 
-.modal-content {
+.modal-content3 {
     position: relative;
     background-color: rgba(255,255,255,1);
     margin: auto;
@@ -39,7 +39,7 @@
     animation-name: animatetop;
     animation-duration: 0.4s;
     box-shadow: 0 0 10px black;
-    
+    margin-top: 150px;
 }
 
 
@@ -92,7 +92,7 @@
 	top:60px;
   left: 110px;
 }
-.modal-content input {
+.modal-content3 input {
   width: 300px;
   height: 40px;
   margin-left: 119px;
@@ -106,19 +106,19 @@
  outline: none;
  border: 2px solid #129AFF;
 }
-.modal-content p {
+.modal-content3 p {
   display: inline-flex;
   position: relative;
   margin-top: 120px;
 }
-.modal-content p a {
+.modal-content3 p a {
 font-size: 22px;
 position: relative;
 left: 20px;
 bottom:19px;
 color: white;
 }
-.modal-content img{
+.modal-content3 img{
   position: absolute;
   bottom: 116px;
   right: 358px;

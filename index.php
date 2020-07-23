@@ -62,24 +62,24 @@
 	<section>
 		<div class="function">
 			<div class="function-line">
-				<div class="square" id="but1" tabindex="1">
+				<button class="square" id="but1" data-modal="myModal1">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона1-05.svg">
 					</span>
 					<span class="square-text">Отслеживание</span>
-				</div>
-				<div class="square" id="but2" tabindex="1">
+				</button>
+				<button class="square" id="but2" data-modal="myModal2">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона2-05.svg">
 					</span>
 					<span class="square-text">Рассчитать стоимость</span>
-				</div>
-				<div class="square" id="but3" tabindex="1">
+				</button>
+				<button class="square" id="but3" data-modal="myModal3">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона3-05.svg">
 					</span>
 					<span class="square-text">Обратный звонок</span>
-				</div>
+				</button>
 				<div class="square" id="but4" tabindex="1">
 					<span class="function-square">
 						<img class="square-img" src="public/img/icons/икона4-05.svg">
@@ -140,8 +140,54 @@
 		<div class="banner">
 			<img src="public/img/banner.svg" class="banner-image">
 		</div>
-		
 	</main>
+
+
+<link rel="stylesheet" href="public/css/find.css">
+<div id="myModal1" class="modal">
+<div class="modal-content1">
+    <div><span class="close" data-modal="myModal1">&times;</span></div>
+	<input type="text" name="name1" id="na1" placeholder="Введите ваш трекинг номер" title="Ваше имя">
+  <img src="public/img/icons/икона1-05.svg" alt="" class="logo1">
+  <img src="public/img/icons/lupa.svg" alt="" class="logo2">
+  <p>
+</p>
+</div>
+</div>
+
+
+
+<link rel="stylesheet" href="public/css/characteristic.css">
+	<div id="myModal2" class="modal">
+  	<div class="modal-content2">
+    <div><span class="close" data-modal="myModal2">&times;</span></div>
+	<input type="text" name="name" placeholder="Откуда" title="Ваше имя" class="input1">
+  <input type="text" name="name" placeholder="Куда" title="Ваше имя" class="input1">
+  <input type="text" name="name" placeholder="Вес" title="Ваше имя" class="input2" id="scale">
+  <input type="text" placeholder="Услуги" class="input2" id="block2">
+  <img src="../public/img/icons/икона1-05.svg" alt="" class="logo1">
+  <input type="text" placeholder="Объявленная стоимость" class="input3">
+  <p>
+    <button class="b-but2">Рассчитать</button><br>
+</p>
+<input type="text" placeholder="Общая сумма" class="input4">
+</div>
+</div>
+
+
+<link rel="stylesheet" href="public/css/phone.css">
+<div id="myModal3" class="modal">
+<div class="modal-content3">
+    <div><span class="close" data-modal="myModal3">&times;</span></div>
+	<input type="text" name="name" id="na3" placeholder="Номер телефона/почта " title="Ваше имя">
+  <img src="dweoflogo/call.svg" alt="">
+  <p>
+	<button class="b-but" type="submit">Отправить</button>
+</p>
+</div>
+</div>
 	
+
+	<script type="text/javascript" src="public/js/modal.js"></script>
 <?php require_once "templates/footer.php"; ?>
 <a href="#">вверх страницы</a>    
