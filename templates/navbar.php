@@ -53,7 +53,7 @@
         <button class="dropbtn">Онлайн сервисы</button>
         <div class="dropdown-content">
             <a href="profile.php">Личный кабинет</a>
-            <a href="#">Сроки доставки</a>
+            <a href="oform.php">Сроки доставки</a>
         </div>
     </div>
     <div class="dropdown" id="drop2">

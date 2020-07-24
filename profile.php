@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="public/css/profile.css">
 <?php require_once "templates/header.php"; ?>
+<?php require_once "templates/navbar.php"; ?>
 <section>
     <img src="public/img/icons/икона4-05.svg" id="human">
     <h2 class="desc" id="who">Кто то</h2>

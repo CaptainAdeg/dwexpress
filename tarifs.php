@@ -1,4 +1,5 @@
 <?php require_once "templates/header.php"; ?>
+<?php require_once "templates/navbar.php"; ?>
 <?php require_once "templates/slider.php"; ?>
 <section class="tarifs">
     <link rel="stylesheet" href="public/css/tarifs.css">
