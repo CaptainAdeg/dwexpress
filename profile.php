@@ -1,6 +1,7 @@
-<link rel="stylesheet" href="../public/css/profile.css">
+<link rel="stylesheet" href="public/css/profile.css">
+<?php require_once "templates/header.php"; ?>
       <section>
-      	<img src="../public/img/icons/икона4-05.svg" id="human">
+      	<img src="public/img/icons/икона4-05.svg" id="human">
       	<h2 class="desc" id="who">Кто то</h2>
       	<hr>
          <div class="profile-info">
@@ -9,66 +10,69 @@
             <h2 class="desc2">Краткие описания вашего профиля</h2>
          <div class="profile">
             <div class="profile-display">
-               <div class="col" style=" background-image: url('../public/img/icons/икона4-05.svg'); background-size: 45px;">
+               <div class="col" style=" background-image: url('public/img/icons/икона4-05.svg'); background-size: 35px; background-position-x:3px; background-position-y:15px;">
                   <h2>Моя информация</h2>
                   <hr>
-                  <p>Обновите параметры входа, настройки электронной почты и секретные вопросы.</p>
-                  <p><a href="">Проверить все мои подписки на электронную почту</a></p>
-                  <br>
-                  <p><a href="">Изменить мои параметры входа</a></p>
+                  <p class="box">Обновите параметры входа, настройки электронной почты и секретные вопросы.</p>
+                 <div class="box2" id="col1"> <p><a href="">Проверить все мои подписки на электронную почту</a></p><br>
+                  <p><a href="">Изменить мои параметры входа</a></p></div>
                </div>
-               <div class="col" style=" background-image: url('../public/img/icons/location.svg');background-size: 45px;">
+               <div class="col" style=" background-image: url('public/img/icons/location.svg');background-size: 45px;">
                   <h2>Адреса</h2>
                   <hr>
-                  <p>Добавляйте, изменяйте
+                  <p class="box">Добавляйте, изменяйте
                      или удаляйте адреса,
                      контакты и списки 
                      рассылки.
                   </p>
-                  <p><a href="">Добавить контакт</a></p>
-                  <br>
+                  <div class="box2" id="col2">
+                     <p><a href="">Добавить контакт</a></p><br>
+               
                   <p><a href="">Создать список 
                      распределения</a>
-                  </p>
-                  <br>
+                  </p><br>
+                 
                   <p><a href="">Обновить мои адреса</a></p>
+                  </div>
                </div>
-               <div class="col" style=" background-image: url('../public/img/icons/card.svg'); background-size: 44px; background-position-x:4px; background-position-y:15px">
+               <div class="col" style=" background-image: url('public/img/icons/card.svg'); background-size: 44px; background-position-x:15px; background-position-y:15px">
                   <h2>Способ оплаты </h2>
                   <hr>
-                  <p>Проверьте даты истечения 
+                  <p class="box">Проверьте даты истечения 
                      срока действия и при 
-                     необходимости обновите <br>
+                     необходимости обновите 
                      свои способы оплаты.
                   </p>
-                  <p><a href="">Открыть платежный счет</a></p>
-                  <br>
+                  <div class="box2" id="col3"><p><a href="">Открыть платежный счет</a></p><br>
+                  
                   <p><a href="">Управление способами 
                      оплаты</a>
-                  </p>
-                  <br>
-                  <p><a href="">Предпочтения</a></p>
+                  </p><br>
+                
+                  <p><a href="">Предпочтения</a></p></div>
                </div>
-               <div class="col" id="col4" style=" background-image: url('../public/img/icons/option.svg'); background-size: 45px; background-position-y:16px;">
+               <div class="col" id="col4" style=" background-image: url('public/img/icons/option.svg'); background-size: 45px; background-position-y:16px; background-position-x:1px;">
                   <h2>Задать настройки</h2>
                   <hr>
-                  <p>Выберите настройки по 
+                  <p class="box">Выберите настройки по 
                      умолчанию для своих 
                      часто выполняемых задач 
                      по отправлениям.
                   </p>
-                  <p><a href="">Отправка</a></p>
-                  <p><a href="">Отправление грузов</a></p>
-                  <p><a href="">Приезд курьера</a></p>
+                  <div class="box2">
+                  <p><a href="">Отправка</a></p><br>
+                  <p><a href="">Отправление грузов</a></p><br>
+                  <p><a href="">Приезд курьера</a></p><br>
                   <p><a href="">Расчет сроков и стоимости 
                      доставки</a>
-                  </p>
+                  </p><br>
                   <p><a href="">Расчет сроков и стоимости 
                      доставки</a>
-                  </p>
-                  <p><a href="">Международная документация</a></p>
-                  <p><a href="">UPS My Choice®</a></p>
+                  </p><br>
+                  <p><a href="">Международная документация</a></p><br>
+                  <p><a href="">UPS My Choice®</a></p><br>
                   <p><a href="">Претензии</a></p>
+               </div>
                </div>
             </div>
          </div>
@@ -90,16 +94,17 @@
 
                			<ul>
                				<li><span class="id" id="header1">ID:</span><span class="date" id="header2">Дата отправления</span><span class="status-header" id="header3">Статус</span></li>
-               				<img src="../public/img/icons/box-full.svg">
+               				<img src="public/img/icons/box-full.svg">
                				<li><span class="id">123</span><span class="date">24.05.2020</span><span class="status">Прибыл</span></li>
-               				<img src="../public/img/icons/box-full.svg">
+               				<img src="public/img/icons/box-full.svg">
                				<li><span class="id">123</span><span class="date">24.05.2020</span><span class="status">Прибыл</span></li>
-               				<img src="../public/img/icons/box-full.svg">
+               				<img src="public/img/icons/box-full.svg">
                				<li><span class="id">123</span><span class="date">24.05.2020</span><span class="status">Прибыл</span></li>
-               				<img src="../public/img/icons/box-full.svg">
+               				<img src="public/img/icons/box-full.svg">
                				<li><span class="id">123</span><span class="date">24.05.2020</span><span class="status">Прибыл</span></li>
 						</ul>	              			
                		</div>
             </div>
          </div>
       </section>
+      <?php require_once "templates/footer.php"; ?>

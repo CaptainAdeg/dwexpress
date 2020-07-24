@@ -1,9 +1,13 @@
 section {
-      		margin: 5%;
+      		padding: 5%;
+            overflow: hidden;
+            font-family: serif;
+            font-weight: 220;
       	}
       	section hr {
 			height: 3px;
 			background-color: #129AFF;
+            margin-top: 40px;
       	}
 
       	section #who {
@@ -13,6 +17,7 @@ section {
       	section #human {
       		position: relative;
       		top: 80px;
+          
       	}
       	.profile-info {
 			color: #0D6C9A;
@@ -43,7 +48,7 @@ section {
          }
          .profile-display .col {
          border: 2px solid #05365F;
-         margin: 11px;
+         margin: 9px;
          background-image: url('../public/img/icons/card.svg');
         background-repeat: no-repeat;
         background-position-y:10px;
@@ -52,14 +57,30 @@ section {
 
          }
          .profile-display #col4  {
-			height: 630px;
+			height: 660px;
          }
          .profile-display .col h2{
         	color: #042E49;
+            margin-top: 22px;
          }
          .profile-display .col p{
         	font-size: 24px;
         	color: #02243F; 
+         }
+         .profile-display .col .box {
+            padding: 10px;
+         }
+         .profile-display .col .box2 {
+            padding: 25px;
+            margin-top: 10px;
+         }
+         #col1, #col3 {
+            position: relative;
+            bottom: 3px;
+         }
+         #col2 {
+            position: relative;
+            bottom: 31px;
          }
           .profile-display .col p a{
         	font-size: 20px;

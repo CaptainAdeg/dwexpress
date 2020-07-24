@@ -1,45 +1,14 @@
 
 <?php require_once "templates/header.php"; ?>
+<?php require_once "templates/navbar.php"; ?>
+<?php require_once "templates/slider.php"; ?>
+<link rel="stylesheet" href="public/css/slider.css">	
 
 <main>
 	
 	<section>
-	<div class="dropdown-menu">
-		<div class="dropdown" id="drop1">
-			<button class="dropbtn">Онлайн сервисы</button>
-			<div class="dropdown-content">
-				<a href="#">Личный кабинет</a>
-				<a href="#">Сроки доставки</a>
-			</div>
-		</div>
-		<div class="dropdown" id="drop2">
-			<button class="dropbtn">О компаний</button>
-			<div class="dropdown-content">
-				<a href="#">Все контакты</a>
-				<a href="#">Наша деятельность</a>
-				<a href="#">Галерея</a>
-			</div>
-		</div>
-		<div class="dropdown" id="drop3">
-			<button class="dropbtn">Тарифы и услуги</button>
-			<div class="dropdown-content">
-				<a href="#">Экспресс доставка</a>
-				<a href="#">Международная доставка</a>
-			</div>
-		</div>
-		<div class="dropdown" id="drop4">
-			<button class="dropbtn">Полезно знать</button>
-			<div class="dropdown-content">
-				<a href="#">Руководства по услугам</a>
-				<a href="#">Частые вопросы</a>
-				<a href="#">Способы оплаты</a>
-				<a href="#">Правила упаковки</a>
-				<a href="#">Закон о Почте</a>
-				<a href="#">Типовый договор</a>
-			</div>
-		</div>
-	</div>
-			<div class="slider">
+	
+			<!--<div class="slider">
                 <div id="img-container" class="images-container">
                 <img class="slider-item fade" src="public/img/slider.png" alt="">
                 <img class="slider-item fade" src="public/img/slider2.png" alt="">
@@ -56,7 +25,7 @@
                 <button class="dot"></button>
                 <button class="dot"></button>
             </div>
-        </div>
+        </div>-->
 
 	</section>
 	<section>

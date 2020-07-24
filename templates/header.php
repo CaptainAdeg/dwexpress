@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="public/css/footer.css">
 	<link rel="stylesheet" href="../public/css/oform.css">
 	<link rel="stylesheet" href="../public/css/about.css">
+	<link rel="stylesheet" href="public/css/slider.css">
 </head>
 <body>
 <header>
@@ -21,7 +22,7 @@
 		<input type="text" id="trackID" placeholder="Отслеживание">
 		<img src="public/img/geo.png" class="geoForTracking">
 	</div>-->
-	<div class="profile">
+	<div class="profile0">
 			<a href="">
 				<img src="public/img/white-prof.svg">
 			</a>
@@ -43,6 +44,7 @@
     <a href="en.php">CN</a>
   </div>
 </div>
+
 	<!--<div class="menu">
 		<nav><div class="online_service"><h2>Онлайн сервисы</h2>
 			<ul class="submenu">

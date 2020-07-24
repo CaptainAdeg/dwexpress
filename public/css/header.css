@@ -4,6 +4,7 @@
     height: 18vh;
     width: 100vw;
     vertical-align: middle;
+    overflow: hidden;
 }
 .logo {
     margin-left: 5vw;
@@ -50,10 +51,10 @@
     border-bottom-right-radius: 20px;
     outline: none;
 }
-.profile {
+.profile0 {
     margin-left: 40%;
 }
-.profile img {
+.profile0 img {
     position: relative;
     top: 30px;
 }
