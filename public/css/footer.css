@@ -1,164 +1,129 @@
-﻿
-.footer-bot {
-		display: inline-flex;
-		
-		width: 100%;
-		
-		height: 200px;
-		order: 4;
-
-		
-	}
-	
-	.conlogo {
-		width: 130px;
-		
-		position: relative;
-		top: 20px;
-		right: 150px;
-	}
-	.connect {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		background: #003250;
-		width: 100%;
-
-
-	}
-
+﻿.footer-bot {
+display: inline-flex;
+width: 100%;
+height: 200px;
+order: 4;
+}
+.conlogo {
+width: 130px;
+position: relative;
+top: 20px;
+right: 150px;
+}
+.connect {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background: #003250;
+width: 100%;
+}
 .flex-container {
-			display: flex;
-			color:#fff;
-			flex-direction: row;
-			margin: 0px 0px 20px 0px;
-			flex-wrap: wrap;
-			background-color: #011B37;
-			height: 300px;
-			text-align:left;
-			position: relative;
-			top: 20px;
-			padding-bottom: 190px;
-			padding-left: 40px;
-			font-size: 21px;
-		}
-		
-		.flex-item {
-			
-			align-items: center;
-			background-size: cover;
-			flex-flow: column wrap;
-			color: #fff;
-			height: 100%;
-			position: relative;
-			top: 60px;
-			
-			
-
-			
-	
-
-		}
-		.flex-item > h2 {
-			position: relative;
-			bottom: 10px;
-			
-		}
-		.flex-item > ul > li {
-			height: 20px;
-			list-style:none;
-			margin-top: 30px;
-		}
-		.flex-item > ul > li > a {
-			color: #fff;
-			
-
-		}
-
-		.one {
-
-			flex: 1 1 0;
-			order: 1;
-			margin-left: 109px;
-
-		}
-		.one  li {
-			
-			margin-top: 30px;
-			list-style-type: none;
-
-		}
-
-		.one a {
-			color: white;
-		}
-		
-		.one .footer-line {
-		position: relative;
-		bottom: 320px;
-		margin-right: 50px;
-		background-color: #13A2FF;
-		}
-		.sub2 img {
-					display: flex;
-    width: 70px;
-    height: 46px;
-    position: relative;
-    bottom: 152px;
-    right: 68px;
-    margin-top: 9px;
-				}
-		
-		.two {
-
- /* Отступ снизу */
-    flex: 1 1 0;
-    order: 1; 
-    position: relative;
-    left: 135px;
-    } /* Второй блок */
-		.three {
-			
-			flex: 1 1 0;
-			order: 3;
-		}
-		.four {
-			
-			flex: 1 1 0;
-			order: 4;
-
-		}
-		#dwe {
-			width: 500px;
-			position: relative;
-			right: 200px;
-		}
-	@media (max-width: 768px) {
-				.flex-item {
-					flex-basis: 50%;
-					position: relative;
-					bottom: 300000px;
-				}
-				.flex-container {
-					height: 50%;
-				}
-				.flex-container {
-					position: relative;
-					bottom: 2000px;
-				}
-
-		}
-		@media (max-width: 320px) {
-				.flex-item, .footer-bot {
-					flex-basis: 50%;
-				}
-				
-		}
+display: flex;
+color:#fff;
+flex-direction: row;
+margin: 0px 0px 20px 0px;
+flex-wrap: wrap;
+background-color: #011B37;
+height: 300px;
+text-align:left;
+position: relative;
+top: 20px;
+padding-bottom: 190px;
+padding-left: 40px;
+font-size: 21px;
+}
+.flex-item {
+align-items: center;
+background-size: cover;
+flex-flow: column wrap;
+color: #fff;
+height: 100%;
+position: relative;
+top: 60px;
+}
+.flex-item > h2 {
+position: relative;
+bottom: 10px;
+}
+.flex-item > ul > li {
+height: 20px;
+list-style:none;
+margin-top: 30px;
+}
+.flex-item > ul > li > a {
+color: #fff;
+}
+.one {
+flex: 1 1 0;
+order: 1;
+margin-left: 109px;
+}
+.one  li {
+margin-top: 30px;
+list-style-type: none;
+}
+.one a {
+color: white;
+}
+.one .footer-line {
+position: relative;
+bottom: 320px;
+margin-right: 50px;
+background-color: #13A2FF;
+}
+.sub2 img {
+display: flex;
+width: 70px;
+height: 46px;
+position: relative;
+bottom: 152px;
+right: 68px;
+margin-top: 9px;
+}
+.two {
+/* Отступ снизу */
+flex: 1 1 0;
+order: 1; 
+position: relative;
+left: 135px;
+} /* Второй блок */
+.three {
+flex: 1 1 0;
+order: 3;
+}
+.four {
+flex: 1 1 0;
+order: 4;
+}
+#dwe {
+width: 500px;
+position: relative;
+right: 200px;
+}
+@media (max-width: 768px) {
+.flex-item {
+flex-basis: 50%;
+position: relative;
+bottom: 300000px;
+}
+.flex-container {
+height: 50%;
+}
+.flex-container {
+position: relative;
+bottom: 2000px;
+}
+}
+@media (max-width: 320px) {
+.flex-item, .footer-bot {
+flex-basis: 50%;
+}
+}
 .toTop {
-	position: fixed;
-	padding: 6px;
-	top: calc(100vh - 60px);
-	left: 5px;
-	height: 50px;
+position: fixed;
+padding: 6px;
+top: calc(100vh - 60px);
+left: 5px;
+height: 50px;
 }

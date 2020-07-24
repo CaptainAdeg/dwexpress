@@ -1,85 +1,73 @@
-
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.2);  /* Black w/ opacity */
-
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.2);  /* Black w/ opacity */
 }
-
-
 .modal-content3 {
-    position: relative;
-    background-color: rgba(255,255,255,1);
-    margin: auto;
-    padding: 0;
-    border-radius: 30px;
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s;
-    box-shadow: 0 0 10px black;
-    width: 520px;
-    height: 485px;
+position: relative;
+background-color: rgba(255,255,255,1);
+margin: auto;
+padding: 0;
+border-radius: 30px;
+-webkit-animation-name: animatetop;
+-webkit-animation-duration: 0.4s;
+animation-name: animatetop;
+animation-duration: 0.4s;
+box-shadow: 0 0 10px black;
+width: 520px;
+height: 485px;
 }
-
-
 @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
 }
-
 @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
 }
-
-
 .close {
-    color: #8DB0D1;
-    float: right;
-    font-size: 50px;
-    font-weight: bold;
-    position: relative;
-    right: 11px;
+color: #8DB0D1;
+float: right;
+font-size: 50px;
+font-weight: bold;
+position: relative;
+right: 11px;
 }
-
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    
+color: black;
+text-decoration: none;
+cursor: pointer;
 }
-
 .modal-content3 input {
-  width: 340px;
-  height: 40px;
-  margin-left: 94px;
- position: relative;
-  margin-top: 19px;
-  top: 80px;
- text-align: center;
- border-radius: 36px;
- font-size: 23px;
- border:1px solid white;
- outline: none;
- border: 2px solid #129AFF;
- background-position-x: 13px;
+width: 340px;
+height: 40px;
+margin-left: 94px;
+position: relative;
+margin-top: 19px;
+top: 80px;
+text-align: center;
+border-radius: 36px;
+font-size: 23px;
+border:1px solid white;
+outline: none;
+border: 2px solid #129AFF;
+background-position-x: 13px;
 background-repeat: no-repeat;
 background-size:32px;
 }
 .modal-content3 p {
-  display: inline-flex;
-  position: relative;
-  margin-top: 120px;
+display: inline-flex;
+position: relative;
+margin-top: 120px;
 }
 .modal-content3 p a {
 font-size: 22px;
@@ -89,22 +77,22 @@ bottom:19px;
 color: white;
 }
 .modal-content3 img{
-  position: absolute;
-  bottom: 116px;
-  right: 358px;
+position: absolute;
+bottom: 116px;
+right: 358px;
 }
 .b-but3 {
-	background-color: #00AEFF;
-    font-size: 28px;
-    color: #fff;
-    margin-left: 120px;
-    width: 286px;
-    height: 58px;
-    border-radius: 36px;
-    text-align: center;
-    position: relative;
-    bottom: 22px;
-    outline:none;
+background-color: #00AEFF;
+font-size: 28px;
+color: #fff;
+margin-left: 120px;
+width: 286px;
+height: 58px;
+border-radius: 36px;
+text-align: center;
+position: relative;
+bottom: 22px;
+outline:none;
 }
 #third1 {background-image: url('../img/modal-icons/modal3/name.svg');}
 #third2 {background-image: url('../img/modal-icons/modal3/call.svg');}
@@ -113,4 +101,4 @@ color: white;
 background-image: url('../img/modal-icons/modal3/message.svg');
 background-position-y: 7px;
 }
-#third4 {background-image: url('../img/modal-icons/modal3/pen.svg');}  
+#third4 {background-image: url('../img/modal-icons/modal3/pen.svg');}

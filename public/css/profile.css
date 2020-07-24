@@ -1,153 +1,138 @@
 section {
-      		padding: 5%;
-            overflow: hidden;
-            font-family: serif;
-            font-weight: 220;
-      	}
-      	section hr {
-			height: 3px;
-			background-color: #129AFF;
-            margin-top: 40px;
-      	}
-
-      	section #who {
-		margin-left: 100px;
-
-      	}
-      	section #human {
-      		position: relative;
-      		top: 80px;
-          
-      	}
-      	.profile-info {
-			color: #0D6C9A;
-			text-align: center;
-			font-size: 35px;
-            margin-top: 65px;
-      	}
-      	.profile-info, .desc, .desc2 {
-			font-size: 35px;
-
-      	}
-        .desc2 {
-             margin-top: 90px;
-            position: relative;
-            top: 30px;
-        }
-
-         .profile {
-         display: flex;
-         flex-direction: row;
-         margin-top: 110px;
-         }
-         .profile-display {
-         display: flex;
-         height: 528px;
-         text-align: center;
-         
-         }
-         .profile-display .col {
-         border: 2px solid #05365F;
-         margin: 9px;
-         background-image: url('../public/img/icons/card.svg');
-        background-repeat: no-repeat;
-        background-position-y:10px;
-        background-position-x:6px;
-
-
-         }
-         .profile-display #col4  {
-			height: 660px;
-         }
-         .profile-display .col h2{
-        	color: #042E49;
-            margin-top: 22px;
-         }
-         .profile-display .col p{
-        	font-size: 24px;
-        	color: #02243F; 
-         }
-         .profile-display .col .box {
-            padding: 10px;
-         }
-         .profile-display .col .box2 {
-            padding: 25px;
-            margin-top: 10px;
-         }
-         #col1, #col3 {
-            position: relative;
-            bottom: 3px;
-         }
-         #col2 {
-            position: relative;
-            bottom: 31px;
-         }
-          .profile-display .col p a{
-        	font-size: 20px;
-        	color: #17BCFF;
-         }
-         .service {
-         	margin-top: 25%;
-         }
-         .service-display {
-         	display: flex;
-         }
-         .service-display a {
-         	color: #15A6E4;
-         }
-
-         .display-type .row {
-         	font-size: 25px;
-    		margin-left: 97px;
-   			position: relative;
-    		bottom: 80px;
-         }
-         .display-info {
-         	border: 3px solid #13A2FF;
-         	 border-radius: 20px;
-         	display: block;
-            width: 100%;
-         	
-         }
-         .display-info ul {
-         display: inline-block;
-    padding-right: 1200px;
-    margin-left: 30px;
-    margin-top: 38px;
-    margin-bottom: 50px;
-        
-         }
-         .display-info ul img {
-         display: flex;
-         position: relative;
-         top: 30px;
-
-    width: 50px;
-         }
-         .display-info li {
-       
-         	list-style-type: none;
-         }
-        
-         .display-info span {
-         	padding: 160px;
-            font-size: 20px;
-         }
-         #header1, #header2, #header3 {
-            margin-left: 177px;
-    padding: 50px;
-    padding-right: 25px;
-         }
-         #header1, #header2, #header3 {
-            position: relative;
-         }
-         #header1 {
-            right: 65px;
-         }
-         #header2 {
-            right: 20px;
-         }
-         #header3 {
-            left: 15px;
-         }
-         
+padding: 5%;
+overflow: hidden;
+font-family: serif;
+font-weight: 220;
+}
+section hr {
+height: 3px;
+background-color: #129AFF;
+margin-top: 40px;
+}
+section #who {
+margin-left: 100px;
+}
+section #human {
+position: relative;
+top: 80px;
+}
+.profile-info {
+color: #0D6C9A;
+text-align: center;
+font-size: 35px;
+margin-top: 65px;
+}
+.profile-info, .desc, .desc2 {
+font-size: 35px;
+}
+.desc2 {
+margin-top: 90px;
+position: relative;
+top: 30px;
+}
+.profile {
+display: flex;
+flex-direction: row;
+margin-top: 110px;
+}
+.profile-display {
+display: flex;
+height: 528px;
+text-align: center;
+}
+.profile-display .col {
+border: 2px solid #05365F;
+margin: 9px;
+background-image: url('../public/img/icons/card.svg');
+background-repeat: no-repeat;
+background-position-y:10px;
+background-position-x:6px;
+}
+.profile-display #col4  {
+height: 660px;
+}
+.profile-display .col h2{
+color: #042E49;
+margin-top: 22px;
+}
+.profile-display .col p{
+font-size: 24px;
+color: #02243F; 
+}
+.profile-display .col .box {
+padding: 10px;
+}
+.profile-display .col .box2 {
+padding: 25px;
+margin-top: 10px;
+}
+#col1, #col3 {
+position: relative;
+bottom: 3px;
+}
+#col2 {
+position: relative;
+bottom: 31px;
+}
+.profile-display .col p a{
+font-size: 20px;
+color: #17BCFF;
+}
+.service {
+margin-top: 25%;
+}
+.service-display {
+display: flex;
+}
+.service-display a {
+color: #15A6E4;
+}
+.display-type .row {
+font-size: 25px;
+margin-left: 97px;
+position: relative;
+bottom: 80px;
+}
+.display-info {
+border: 3px solid #13A2FF;
+border-radius: 20px;
+display: block;
+width: 100%;
+}
+.display-info ul {
+display: inline-block;
+padding-right: 1200px;
+margin-left: 30px;
+margin-top: 38px;
+margin-bottom: 50px;
+}
+.display-info ul img {
+display: flex;
+position: relative;
+top: 30px;
+width: 50px;
+}
+.display-info li {
+list-style-type: none;
+}
+.display-info span {
+padding: 160px;
+font-size: 20px;
+}
+#header1, #header2, #header3 {
+margin-left: 177px;
+padding: 50px;
+padding-right: 25px;
+}
+#header1, #header2, #header3 {
+position: relative;
+}
+#header1 {
+right: 65px;
+}
+#header2 {
+right: 20px;
+}
+#header3 {
+left: 15px;
+}
