@@ -27,14 +27,29 @@
 <section class="info-all">
     <div class="address">
         <div class="address-info">
-            <h2>Все контакты</h2>
+            <p id="all">Все контакты</p id="all">
             <br>
-            <p>8-777-777-77-77</p>
-            <p>345-25-55</p>
+            <p class="info-source">8-777-777-77-77</p>
+            <p class="info-source">345-25-55</p>
             <br>
-            <p>Сатпаева 30а</p>
+            <p class="info-source">Сатпаева 30а</p>
         </div>
         <div class="address-map">
+            <div id="map"></div>
+            <script>
+                function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 43.234797, lng: 76.920931};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 18, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+            </script>
+            <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh9hVZDVLqMfheQIe1OCnqy7Rt-s-5pYM&callback=initMap">
+    </script>
         </div>
     </div>
     <div class="about_us">
@@ -57,7 +72,7 @@
         <p class="description">Мы располагаем офисами, где работают наши русские и китайские специалисты и собственным складом консолидации в Гуанчжоу, ИУ, Пекине и Шисин. Планируется открытие новых складов в таких городах, как Шэньчжень и Шанхай</p>
         <br>
     </div>
-    <h1>Галерея</h1>
+    <h1 id="gallery">Галерея</h1>
     <div class="gallery">
     <div class="gallery-line">
         <div class="square"></div>

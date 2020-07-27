@@ -1,22 +1,38 @@
 .form-page button {
-border-radius: 10px;
 outline: none;
 }
 .country {
 	display: inline-flex;
 	width: 350px;
-	height: 30px;
+	height: 45px;
 	justify-content: center;
+	border-radius: 66px;
+	position: relative;
+	right: 180px;
+	margin: 2px;
+}
+.country p {
+	margin-top: 12px;
 }
 .country:focus {
 background-color: #4BC6FF;
 }
+.top-line {
+	width: 433px;
+	margin-left: 50px;
+}
 .form-page {
-margin: 88px;
+padding: 88px;
 }
 .page-container{
 text-align: center;
 font-size: 30px;
+}
+.page-container .data {
+	margin-top: 30px;
+	color:#40657C;
+	font-family: sans-serif;
+
 }
 .page-container .country {
 	margin-bottom:15px;
@@ -26,6 +42,8 @@ width: 40%;
 display: flex;
 grid-auto-flow: column;
 margin-left: 121px;
+margin-top: 25px;
+margin-bottom: 30px;
 }
 .page-info input, .page-info-more input {
 width: 374px;
@@ -43,6 +61,10 @@ margin-left: 83px;
 }
 .page-info-more input {
 margin-right: 36px;
+}
+.page-info-more .more-delivery, .more-price, .page-pocket {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 .page-info .icons {
 border-right: 3px solid #00f;
@@ -112,6 +134,8 @@ padding: 10px;
     background-image: url('../img/icons-for-oform/question.svg');
     background-size: 48px;
     background-repeat: no-repeat;
+    outline: none;
+    border-radius: 10px;
 }
 .label2 {
 	margin-right: 120px;
@@ -156,6 +180,22 @@ position: relative;
 background-color: white;
 border: 1px solid white;
 }*/
+
+.page-service {
+	margin-top: 30px;
+}
+.page-service .quest-block-last{
+	width: 50px;
+	height: 50px;
+	position: relative;
+    background-image: url('../img/icons-for-oform/question.svg');
+    background-size: 48px;
+    background-repeat: no-repeat;
+    outline: none;
+    border-radius: 10px;
+    position: relative;
+    right: 90px;
+}
 input {
 outline: none;
 }
@@ -216,6 +256,7 @@ width: 40%;
 height: 60px;
 font-size: 30px;
 background-color: #10B4FF;
+border-radius: 60px;
 }
 hr {
 background-color: #10B4FF;

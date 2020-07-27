@@ -4,10 +4,11 @@
 <section class="form-page">
     <div class="page-container">
         <nav class="country">
-            <button class="country russia">Россия</button>
-            <button class="country kazakhs">Казахстан</button>
+            <button class="country russia"><p>Россия</p></button>
+            <button class="country kazakhs"><p>Казахстан</p></button>
         </nav>
-        <hr>
+        <hr class="top-line">
+        <h3 class="data">Введите свои данные</h3>
         <div class="page-info">
             <div class="info-sender">
                 <div class="icons">
@@ -84,7 +85,9 @@
         <hr>
         <div class="page-service">
             <input type="checkbox" id="c5" name="cc"  class="label3" />
-            <label for="c5" class="label2"><span></span>Услуги фотоотчёта</label><br>
+            <label for="c5" class="label2"><span style="margin-right: 30px;
+            margin-left: 70px;"></span>Услуги фотоотчёта</label>
+            <button class="quest-block-last" ><img src=""></button><br>
             <button class="final">Оформить заказ</button>
         </div>
     </div>

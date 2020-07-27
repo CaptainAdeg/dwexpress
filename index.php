@@ -25,6 +25,15 @@
 		
 		</section>-->
 	<section>
+		<div class="main-text">
+			<h2>Наша цель это не только доставить Вашу посылку
+а  ещё доставить Вам удовольствие от работы с нами!</h2><br>
+			<p>DWExpress - предлагает Вам услуги по международной перевозке 
+мелких посылок и малогабаритных грузов с товарами
+интернет-торговли.</p>
+<hr class="middle-line">
+		</div>
+
 		<div class="function">
 			<div class="function-line">
 				<button class="square" id="but1" data-modal="myModal1">
@@ -83,10 +92,12 @@
 		</div>
 		</div><br>
 	</section>
-	<p class="banner-text">Большой опыт работы в логистике, отлаженные схемы оказания
+	<div class="last-page"><p class="banner-text">Большой опыт работы в логистике, отлаженные схемы оказания
 		услуг и надежные ресурсы, позволяют нам быстро и 
 		качественно доставить Ваши посылки!
 	</p>
+	<button class="oform"><a href="oform.php">Оформить заказ</a></button></div>
+	
 	<!--<hr class="line-through-page">
 		<div class="extra-page">
 			<p>Начать отправлять просто</p>

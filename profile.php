@@ -8,7 +8,9 @@
     <div class="profile-info">
         <p>Для Вас организован превосходный сервис, которая <br> поможет сократить время доставки в несколько раз</p>
     </div>
-    <h2 class="desc2">Краткие описания вашего профиля</h2>
+    <div class="headers"><h1>Профиль</h1>
+    <h2 class="desc2">Краткие описания вашего профиля</h2></div>
+    
     <div class="profile">
         <div class="profile-display">
             <div class="col" style=" background-image: url('public/img/icons/икона4-05.svg'); background-size: 35px; background-position-x:3px; background-position-y:15px;">

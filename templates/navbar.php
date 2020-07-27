@@ -21,6 +21,10 @@
     position: relative;
     display: inline-flex;
     }
+    .dropdown a {
+        color: white;
+        text-decoration: none;
+    }
     /* Dropdown Content (Hidden by Default) */
     .dropdown-content {
     display: none;
@@ -46,11 +50,11 @@
     /* Show the dropdown menu on hover */
     .dropdown:hover .dropdown-content {display: block;}
     /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    .dropdown:hover .dropbtn {background-color: transparent;}
 </style>
 <div class="dropdown-menu">
     <div class="dropdown" id="drop1">
-        <button class="dropbtn">Онлайн сервисы</button>
+        <button class="dropbtn"><a href="">Онлайн сервисы</a></button>
         <div class="dropdown-content">
             <a href="profile.php">Личный кабинет</a>
             <a href="oform.php">Сроки доставки</a>
@@ -72,7 +76,7 @@
         </div>
     </div>
     <div class="dropdown" id="drop4">
-        <button class="dropbtn">Полезно знать</button>
+        <button class="dropbtn"><a href="knowledge.php">Полезно знать</a></button>
         <div class="dropdown-content">
             <a href="#">Руководства по услугам</a>
             <a href="#">Частые вопросы</a>

@@ -1,0 +1,49 @@
+.rules {
+	padding: 100px;
+	font-family: sans-serif;
+	font-weight: 200;
+
+}
+
+.type-deal, .type-payment {
+	font-size: 28px;
+
+}
+.type-deal h2, .type-payment h2{
+	color: #02628B;
+}
+.type-package {
+	font-size: 28px;
+}
+.type-package h2 {
+	color: #02628B;
+	
+}
+.type-law {
+	margin-bottom: 100px;
+	margin-top:100px;
+	font-size: 24px;
+	font-height:42px;
+}
+.type-law h1 {
+	color: #02628B;
+}
+.type-law a {
+	color: black;
+}
+.rule-info {
+	font-size: 24px;
+	color: #02628B;
+}
+.rule-info ul > li , .type-package ol > li{
+	margin: 19px;
+}
+.feed-display ul {
+	list-style-type: none;
+	border: 3px solid black;
+	border-radius: 22px;
+	padding: 20px;
+}
+.feed-display ul > li {
+	margin: 5px;
+}
