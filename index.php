@@ -54,12 +54,12 @@
 				</span>
 				<span class="square-text">Обратный звонок</span>
 				</button>
-				<div class="square" id="but4" tabindex="1">
+				<a href="profile.php"><div class="square" id="but4" tabindex="1">
 					<span class="function-square">
 					<img class="square-img" src="public/img/icons/икона4-05.svg">
 					</span>
 					<span class="square-text">Личный кабинет</span>
-				</div>
+				</div></a>
 			</div>
 		</div>
 	</section>

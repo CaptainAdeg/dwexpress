@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="public/css/footer.css">
     <link rel="stylesheet" href="public/css/slider.css">
     <div class="container">
-        <h2 class="description">Сроки доставки</h2>
+        <h2 class="description" id="src3-1">Сроки доставки</h2>
         <div class="table-block">
             <div class="table">
                 <div class="table-col">
@@ -109,7 +109,7 @@
         </div>
     </div>
     <div class="short-description">
-        <h2>Страхование</h2><br>
+        <h2 id="src3-2">Страхование</h2><br>
         <p>Страхование посылок - это гарантия безопасной перевозки <br>Ваших товаров.</p><br>
         <p>Страхование посылки позволит Вам не переживать за<br> целостность перевозимых товаров.</p>
     </div>

@@ -27,7 +27,7 @@
 <section class="info-all">
     <div class="address">
         <div class="address-info">
-            <p id="all">Все контакты</p id="all">
+            <p id="all">Все контакты</p>
             <br>
             <p class="info-source">8-777-777-77-77</p>
             <p class="info-source">345-25-55</p>
@@ -53,7 +53,7 @@
         </div>
     </div>
     <div class="about_us">
-        <h1>Наша деятельность</h1>
+        <h1 id="src2-2">Наша деятельность</h1>
         <br>
         <p class="description">Курьерская компания «DWExpress» работает на рынке
             Казахстана c 1995 года. Мы имеем широко развитую сеть во всех странах
