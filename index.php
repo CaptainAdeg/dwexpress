@@ -3,35 +3,12 @@
 <?php require_once "templates/slider.php"; ?>
 <link rel="stylesheet" href="public/css/slider.css">
 <main>
-	<!--<section>
-		<div class="slider">
-		             <div id="img-container" class="images-container">
-		             <img class="slider-item fade" src="public/img/slider.png" alt="">
-		             <img class="slider-item fade" src="public/img/slider2.png" alt="">
-		             <img class="slider-item fade" src="public/img/slider.png" alt="">
-		             <img class="slider-item fade" src="public/img/slider2.png" alt="">
-		         </div>
-		         <div class="buttons-block">
-		             <div id="prev-btn">&lt;</div>
-		             <div id="next-btn">&gt;</div>
-		         </div>
-		         <div id="dots-block">
-		             <button class="dot dot-active"></button>
-		             <button class="dot"></button>
-		             <button class="dot"></button>
-		             <button class="dot"></button>
-		         </div>
-		     </div>
-		
-		</section>-->
 	<section>
 		<div class="main-text">
-			<h2>Наша цель это не только доставить Вашу посылку
-а  ещё доставить Вам удовольствие от работы с нами!</h2><br>
-			<p>DWExpress - предлагает Вам услуги по международной перевозке 
-мелких посылок и малогабаритных грузов с товарами
-интернет-торговли.</p>
-<hr class="middle-line">
+			<h2>Наша цель это не только доставить Вашу посылку а ещё доставить Вам удовольствие от работы с нами!</h2>
+			<br>
+			<p>DWExpress - предлагает Вам услуги по международной перевозке мелких посылок и малогабаритных грузов с товарами интернет-торговли.</p>
+		<hr class="middle-line">
 		</div>
 
 		<div class="function">

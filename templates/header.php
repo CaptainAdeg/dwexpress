@@ -1,9 +1,32 @@
+<?php
+
+	session_start();
+
+	// Если пользователь сменил язык
+	if( isset($_GET['lang']) ) {
+		$_SESSION['lang'] = trim($_GET['lang']);
+	}
+
+	// Подключение всех данных для языка
+	switch( $_SESSION['lang'] ) {
+		case 'EN':
+			require_once 'langs/en.php';
+			break;
+		case 'CN':
+			require_once 'langs/cn.php';
+			break;
+		case 'RU':
+			require_once 'langs/ru.php';
+			break;
+	}	
+
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title><?=$title?></title>
         <link rel="stylesheet" href="public/css/style.css">
         <link rel="stylesheet" href="public/css/header.css">
         <link rel="stylesheet" href="public/css/footer.css">
@@ -35,11 +58,23 @@
                 <a href="en.php" class="languageItem">CN</a>
                 </div>-->
             <div class="lan-dropdown">
-                <div class="lan-dropbtn">RU</div>
+				<div class="lan-dropbtn">
+					<?php
+
+						// Если нет выбранного языка то выбераем RU
+						if( isset($_SESSION['lang'])) {
+							echo $_SESSION['lang'];
+						} else {
+							echo 'RU';
+							$_SESSION['lang'] = 'RU';
+						}
+					
+					?>
+				</div>
                 <div class="lan-dropdown-content">
-                    <a href="">RU</a>
-                    <a href="index.php">EN</a>
-                    <a href="en.php">CN</a>
+                    <span class="langElem" onclick="location.href = '?lang=RU'">RU</span>
+                    <span class="langElem" onclick="location.href = '?lang=EN'">EN</span>
+                    <span class="langElem" onclick="location.href = '?lang=CN'">CN</span>
                 </div>
             </div>
             <!--<div class="menu">
