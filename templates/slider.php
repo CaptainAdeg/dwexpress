@@ -58,6 +58,11 @@
     .dot-active {
     background: rgb(255, 255, 255);
     }
+    @media screen and (max-width: 765px) {
+      .slider {
+        display: none;
+      }  
+    }
 </style>
 <div class="slider">
     <div id="img-container" class="images-container">

@@ -23,7 +23,7 @@
     .dropdown {
     position: relative;
     display: inline-flex;
-    max-width: 25vw;
+    max-width: 24vw;
     }
     .dropdown a {
         color: white;
@@ -84,12 +84,13 @@
     #content4 a{
         padding: 12px 76px;
     }
+    
 </style>
 <div class="dropdown-menu">
     <div class="dropdown" id="drop1">
         <button class="dropbtn"><a href="index.php">Онлайн сервисы</a></button>
         <div class="dropdown-content" id="content1">
-            <a href="../profile.php">Личный кабинет</a>
+            <a href="profile.php">Личный кабинет</a>
             <a href="index.php#but1">Отслеживание</a>
             <a href="index.php#but2">Калькулятор</a>
             <a href="index.php#but3">Обратный звонок</a>

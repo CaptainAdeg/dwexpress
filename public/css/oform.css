@@ -147,40 +147,6 @@ padding: 10px;
 	position: relative;
 	right: 300px;
 }
-
-/*.page-pocket .pocket-col1 {
-padding-right: 361px;
-
-border-right: 3px solid #10B4FF;
-}
-.page-pocket .pocket-col2 {
-	margin-left:44px;
-}
-.label1 {
-position: relative;
-top: 30px;
-}
-.label2 {
-position: relative;
-top: 90px;
-right: 34px;
-}
-.pocket-col1 .question  {
-display: flex;
-position: relative;
-left: 230px;
-bottom: 80px;
-margin-top: 30px;
-}
-.question {
-width: 60px;
-height: 60px;
-border-radius: 0px;
-position: relative;
-background-color: white;
-border: 1px solid white;
-}*/
-
 .page-service {
 	margin-top: 30px;
 }
@@ -262,3 +228,176 @@ hr {
 background-color: #10B4FF;
 height: 2px;
 }
+@media screen and (min-width: 1000px) {
+	.mob-page-pocket, .mob-page-service {
+		display: none;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 765px) {
+	.page-pocket, .page-service {
+		display: none;
+	}
+
+	.form-page {
+		padding: 5vw;
+	}
+	.page-container {
+		width: auto;
+	}
+
+	.country {
+	right: 0;
+   	width: 95%;
+    height: 7vh;
+	}
+	.country.russia , .country.kazakhs {
+		width: 34vw;
+	}
+	.top-line {
+		margin-left: 0;
+		width: 89vw;
+	}
+	.page-container .page-info {
+		flex-direction: column;
+		margin-left: 0;
+		width: 100%;
+	}
+	.page-info input{
+		margin-left: 0;
+	}
+	.page-info-more input {
+		margin-right: 0;
+	}
+	.page-info input, .page-info-more input {
+		width: 63vw;
+		margin: 0;
+		margin-bottom: 13px;
+		position: relative;
+		left:7vw;
+		font-size: 2.3vh;
+	}
+.mob-page-pocket {
+		flex-direction: column;
+		padding: 0;
+		margin-top: 2vh;
+    	margin-bottom: 2vh;
+	}
+	.mob-page-pocket label, .mob-extra label {
+		width: 65vw;
+		display:flex;
+	}
+	.mob-page-pocket label > p, .mob-label3 p {
+		margin-top: 2.5vh;
+		font-size: 3.2vh;
+		text-align: start;
+	}
+	.mob-page-col1, .mob-page-col2 {
+		display: flex;
+    	flex-wrap: wrap;
+	}
+	.m-quest-block  {
+	width: 14vw;
+    height: 7vh;
+    margin-left: 8vw;
+    margin-top: 0.7vh;
+	}
+	input[type="checkbox"] + label span {
+	width: 16vw;
+    height: 9vh;
+    margin: -1px 4px 8px 0;
+}	
+.mob-page-service {
+	margin-bottom: 4vh;
+}
+.mob-extra {
+	margin-top: 2vh;
+}
+.mob-quest-block-last {
+	width: 14vw;
+    height: 7vh;
+    position: relative;
+    bottom: 9vh;
+    left: 35vw;
+}
+.mob-final {
+	width: 50vw;
+    height: 8vh;
+    border-radius: 3vh;
+}
+.page-info .icons, .page-info-more .icons {
+	margin-left: 0;
+    height: 6.3vh;
+    margin-top: 0.2px;
+    left: 13vw;
+	}
+	.icons img {
+     width: 8vw;
+    height: 8vh;
+    left: 1.7vw;
+    top: -1vh;
+	}
+	.page-info input, .page-info-more input {
+		font-size: 2.3vh;
+	}
+}
+@media screen and (max-width: 320px) {
+	
+	.page-info .icons, .page-info-more .icons {
+		margin-left: 0;
+   	 	height: 7.4vh;
+    	margin-top: 0.4px;
+    	left: 11vw;
+	}
+	.icons img {
+    width: 8vw;
+    height: 8vh;
+    left: 2.7vw;
+    top: -0.2vh;
+	}
+	.page-info input, .page-info-more input {
+		font-size: 2.3vh;
+	}
+}	
+@media screen and (min-width: 414px) {
+	.page-info .icons, .page-info-more .icons {
+	    margin-left: 0;
+    height: 5.7vh;
+    margin-top: 0.2px;
+    left: 14.2vw;
+	}
+	.icons img {
+      width: 6vw;
+    height: 6vh;
+    left: 2.3vw;
+    top: -0.2vh;
+	}
+	.page-info input, .page-info-more input {
+		font-size: 2.3vh;
+	}
+
+}
+@media screen and (min-height: 812px) {
+	.page-info .icons, .page-info-more .icons {
+	    margin-left: 0;
+    height: 5.2vh;
+    margin-top: 0.2px;
+    left: 14.2vw;
+	}
+	.icons img {
+     width: 7vw;
+    height: 7vh;
+    left: 2.3vw;
+    top: -1vh;
+	}
+	.mob-page-pocket label > p, .mob-label3 p {
+		font-size: 2.7vh;
+	}
+	input[type="checkbox"] + label span {
+		width: 18vw;
+    	height: 9vh;
+	}
+	.page-info input, .page-info-more input {
+		font-size: 1.9vh;
+	}
+}
+

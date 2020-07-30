@@ -8,6 +8,82 @@
               display: inline;
         }
         </style>-->
+<div class="foot-wrappere">
+        <div class="foot-accordion">
+            <div class="foot-accordion-item">
+                <div class="foot-accordion-item__trigger">
+                    Онлайн сервисы
+                </div>
+                <div class="foot-accordion-item__content">
+                    Личный кабинет
+                </div>
+                <div class="foot-accordion-item__content">
+                    Отслеживание
+                </div>
+                <div class="foot-accordion-item__content">
+                    Калькулятор
+                </div>
+                <div class="foot-accordion-item__content">
+                    Обратный звонок
+                </div>
+            </div>
+            <div class="foot-accordion-item">
+                <div class="foot-accordion-item__trigger">
+                    О компании
+                </div>
+                <div class="foot-accordion-item__content">
+                    Все контакты
+                </div>
+                <div class="foot-accordion-item__content">
+                    Наша деятельность
+                </div>
+                <div class="foot-accordion-item__content">
+                    Галерея
+                </div>
+            </div>
+            <div class="foot-accordion-item">
+                <div class="foot-accordion-item__trigger">
+                    Тарифы и услуги
+                </div>
+                <div class="foot-accordion-item__content">
+                    Сроки доставки
+                </div>
+                <div class="foot-accordion-item__content">
+                    Страхование
+                </div>
+            </div>
+            <div class="foot-accordion-item">
+                <div class="foot-accordion-item__trigger">
+                    Полезно знать
+                </div>
+                <div class="foot-accordion-item__content">
+                    Типовый договор
+                </div>
+                <div class="foot-accordion-item__content">
+                    Способ оплаты
+                </div>
+                <div class="foot-accordion-item__content">
+                    Функций выбора упаковки
+                </div>
+                <div class="foot-accordion-item__content">
+                    Закон о Почте
+                </div>
+                <div class="foot-accordion-item__content">
+                    Запрещено перевозить
+                </div>
+                <div class="foot-accordion-item__content">
+                    Частые вопросы
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="public/js/footer.js"></script>
+
+
+
+
+
     <div class="flex-container">
         <div class="flex-item one">
             <h2>Обслуживание клиентов</h2>
@@ -66,6 +142,16 @@
         <a href="instagram.com"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a>
         <a href=""><img class="conlogo" id="wp" src="public/img/social/wp.svg"></a>
         <a href=""><img class="conlogo" id="whapp"src="public/img/social/wechat.svg"></a>
+    </div>
+</div>
+    <div class="mob-footer-bot">
+        <div class="mob-footer-bot__logo" style="background-image: url('public/img/logobot.svg');">
+            <a href="index.php" id="dwexpress-m"></a></div>
+        <div class="mob-footer-bot__connect">
+            <a href="" id="wechat-m" style="background-image: url('public/img/social/wechat.svg');"></a>
+            <a href="" id="insta-m" style="background-image: url('public/img/social/instagram.svg');"></a>
+            <a href="" id="wpp-m" style="background-image: url('public/img/social/wp.svg');"></a>
+        </div>
     </div>
     <img onclick="location.href = '#'" src="public/img/toTop.png" class="toTop">
 </footer>

@@ -76,7 +76,18 @@
                     <span class="langElem" onclick="location.href = '?lang=EN'">EN</span>
                     <span class="langElem" onclick="location.href = '?lang=CN'">CN</span>
                 </div>
+                
             </div>
+            <span class="burger">
+              <img src="public/img/icons-mobile/burger.svg">
+            </span>
+
+           <!-- <script>
+              function open() {
+                document.getElementByClassName('dropdown').style.width = "100%";
+                document.getElementByClassName('dropdown').style.display = "block";
+              }
+            </script>-->
             <!--<div class="menu">
                 <nav><div class="online_service"><h2>Онлайн сервисы</h2>
                 	<ul class="submenu">

@@ -49,22 +49,6 @@
         </div>
         <hr>
         <div class="page-pocket">
-            <!--<div class="pocket-col1">
-                <input type="radio" id="c1" name="cc" class="label1" />
-                <label for="c1" class="label1"><span></span>Пленка+пакет</label>
-                <button class="ques" id="q1"><img src="public/img/icons-for-oform/question.svg"></button><br>
-                <input type="radio" id="c2" name="cc"  class="label2" />
-                <label for="c2" class="label2" id="corob2"><span></span>Коробка</label>
-                <button class="ques" id="q2"><img src="public/img/icons-for-oform/question.svg"></button>
-            </div>
-            <div class="pocket-col2">
-                <input type="radio" id="c3" name="cc" class="label1" />
-                <label for="c3" class="label1"><span></span>Коробка+уголок</label>
-                <button type="radio" class="ques" id="q3"><img src="public/img/icons-for-oform/question.svg"></button><br>
-                <input type="radio" id="c4" name="cc"  class="label2" />
-                <label for="c4" class="label2"><span></span>Обрещетка</label>
-                <button type="radio" class="ques" id="q4"><img src="public/img/icons-for-oform/question.svg"></button>
-            </div>-->
             <div class="page-col1">
                 <input type="checkbox" id="in1">
                 <label for="in1" class="label1"><span></span>Пленка+пакет</label>
@@ -82,6 +66,33 @@
                 <button class="quest-block" id="col-block2"><img src=""></button>
             </div>
         </div>
+
+
+                    <!--===Mobile version of service-->
+            <div class="mob-page-pocket">
+            <div class="mob-page-col1">
+                <input type="checkbox" id="m-in1">
+                <label for="m-in1" class="m-label1"><span></span><p>Пленка+пакет</p></label>
+                <button class="m-quest-block"><img src="" col-block1></button>
+                <input type="checkbox" id="m-in2">
+                <label for="m-in2" class="m-label2"><span></span><p>Коробка</p></label>
+                <button class="m-quest-block"><img src="" col-block1></button>
+            </div>
+            <div class="mob-page-col2">
+                <input type="checkbox" id="m-in3">
+                <label for="m-in3" class="m-label1"><span></span><p>Коробка+уголок</p></label>
+                <button class="m-quest-block"><img src=""></button>
+                <input type="checkbox" id="m-in4">
+                <label for="m-in4" class="m-label2"><span></span><p>Обрещетка</p></label>
+                <button class="m-quest-block"><img src=""></button>
+            </div>
+        </div>
+                    <!--Mobile version of service===-->
+
+
+
+
+
         <hr>
         <div class="page-service">
             <input type="checkbox" id="c5" name="cc"  class="label3" />
@@ -90,6 +101,21 @@
             <button class="quest-block-last" ><img src=""></button><br>
             <button class="final">Оформить заказ</button>
         </div>
+
+
+             <!--===Mobile version of service2-->
+            <div class="mob-page-service">
+                <div class="mob-extra">
+                    <input type="checkbox" id="m-c5" name="cc"  class="mob-label3" />
+                    <label for="m-c5" class="mob-label3"><span></span><p>Услуги фотоотчёта</p></label>
+                    <button class="mob-quest-block-last" ><img src=""></button>
+                </div>
+            <br>
+                <button class="mob-final">Оформить заказ</button>
+        </div>
+              <!--Mobile version of service2===-->
+
+
     </div>
 </section>
 

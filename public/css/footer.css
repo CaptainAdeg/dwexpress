@@ -101,8 +101,95 @@ width: 500px;
 position: relative;
 right: 200px;
 }
+.toTop {
+	position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: -4px;
+    right: 1720px;
+}
+
+@media screen and (min-width: 769px) {
+	.mob-footer-bot, .foot-wrappere {
+		display: none;
+	}
+}
 @media (max-width: 768px) {
-.flex-item {
+	.flex-container, .footer-bot {
+		display: none;
+	}
+	.
+	.banner-image {
+		margin-bottom: 20px;
+	}
+	.foot-wrappere {
+max-width: 500px;
+margin: 0 auto;
+background-color: #0A2B42;
+color: #fff;
+    }
+    /* === Аккордеон === */
+  
+    .foot-accordion-item--active .foot-accordion-item__trigger {
+    	background-color: #ccc;
+    	background-repeat: no-repeat;
+    	background-size: 30px;
+    	background-position: 368px 17px ;
+    	background-image: url('../img/footer-icons/minus.svg');
+    	transition-timing-function: 
+    }
+    .foot-accordion-item--active .foot-accordion-item__content {
+		display: block;
+		background-color:  #114467;
+		transition: 0.8s;
+    }
+    .foot-accordion-item__trigger {
+    	padding: 20px;
+    	border-bottom: 1px solid #fff;
+    	background-image: url('../img/footer-icons/plus.svg');
+    	background-repeat: no-repeat;
+    	background-size: 30px;
+    	background-position: 89vw 2.2vh;
+    }
+    .foot-accordion-item__content {
+    	padding: 20px;
+    	border: 1px solid black;
+    	border-top: none;
+    	display: none;
+    }
+    .mob-footer-bot	{
+    	display: flex;
+    	flex-wrap: wrap;
+    	flex-direction: row;
+	max-width: 500px;
+	margin: 0 auto;
+background-color: #013152;
+height: 70px;
+    }
+    .mob-footer-bot__logo {
+		width: 50vw;
+		background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    .mob-footer-bot__connect {
+		display: inline-flex;
+		width: 50vw;
+
+    }
+    .mob-footer-bot__connect a{
+		width: 80px;
+			background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width: 414px) {
+	.mob-footer-bot__logo {
+    }
+    .mob-footer-bot__connect {
+		
+    }
+}
+ 
+ /*.flex-item {
 flex-basis: 50%;
 position: relative;
 bottom: 300000px;
@@ -126,4 +213,4 @@ padding: 6px;
 top: calc(100vh - 60px);
 left: 5px;
 height: 50px;
-}
+}*/

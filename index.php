@@ -4,6 +4,88 @@
 <link rel="stylesheet" href="public/css/slider.css">
 <main>
 	<section>
+
+		<!--====Для мобилки====-->
+	<div class="window">
+		<div class="mob-banner">
+			<div class="mob-banner-item">
+				<div class="banner-item__text"><p>Доставка посылок из Китая в Казахстан и Россию</p></div>
+				<button class="banner-item__button"><a href="oform.php">Оформить заказ</a></button>
+			</div>
+		</div>
+	</div>
+
+	<div class="wrappere">
+		<div class="accordion">
+			<div class="accordion-item">
+				<div class="accordion-item__trigger">
+					Онлайн сервисы
+				</div>
+				<div class="accordion-item__content">
+					Личный кабинет
+				</div>
+				<div class="accordion-item__content">
+					Отслеживание
+				</div>
+				<div class="accordion-item__content">
+					Калькулятор
+				</div>
+				<div class="accordion-item__content">
+					Обратный звонок
+				</div>
+			</div>
+			<div class="accordion-item">
+				<div class="accordion-item__trigger">
+					О компании
+				</div>
+				<div class="accordion-item__content">
+					Все контакты
+				</div>
+				<div class="accordion-item__content">
+					Наша деятельность
+				</div>
+				<div class="accordion-item__content">
+					Галерея
+				</div>
+			</div>
+			<div class="accordion-item">
+				<div class="accordion-item__trigger">
+					Тарифы и услуги
+				</div>
+				<div class="accordion-item__content">
+					Сроки доставки
+				</div>
+				<div class="accordion-item__content">
+					Страхование
+				</div>
+			</div>
+			<div class="accordion-item">
+				<div class="accordion-item__trigger">
+					Полезно знать
+				</div>
+				<div class="accordion-item__content">
+					Типовый договор
+				</div>
+				<div class="accordion-item__content">
+					Способ оплаты
+				</div>
+				<div class="accordion-item__content">
+					Функций выбора упаковки
+				</div>
+				<div class="accordion-item__content">
+					Закон о Почте
+				</div>
+				<div class="accordion-item__content">
+					Запрещено перевозить
+				</div>
+				<div class="accordion-item__content">
+					Частые вопросы
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="public/js/mob.js"></script>
+
 		<div class="main-text">
 			<h2>Наша цель это не только доставить Вашу посылку а ещё доставить Вам удовольствие от работы с нами!</h2>
 			<br>
@@ -31,7 +113,7 @@
 				</span>
 				<span class="square-text">Обратный звонок</span>
 				</button>
-				<a href="profile.php"><div class="square" id="but4" tabindex="1">
+				<a href="profile.php" id="button4href"><div class="square" id="but4" tabindex="1">
 					<span class="function-square">
 					<img class="square-img" src="public/img/icons/икона4-05.svg">
 					</span>
@@ -41,6 +123,17 @@
 		</div>
 	</section>
 	<hr class="middle-line">
+	
+	<!--==Для мобилки-->
+	<div class="mob-text">
+			<h2>Наша цель это не только доставить Вашу посылку а ещё доставить Вам удовольствие от работы с нами!</h2>
+			<br>
+			<p>DWExpress - предлагает Вам услуги по международной перевозке мелких посылок и малогабаритных грузов с товарами интернет-торговли.</p>
+	</div>		
+	<!--Для Мобилки==-->
+
+
+
 	<h1 class="middle-text">Работая с нами вы получаете</h1>
 	<section>
 		<div class="info">
@@ -62,7 +155,7 @@
 					<img class="monitor-img" src="public/img/icons/Find.svg">
 					</span>
 					<span class="monitor-text">Отслеживание</span>
-					<p>Отслеживайте трекер вашей <br>посылки, будьте в курсе ее <br> передвижения</p>
+					<p>Отслеживайте трекер вашей посылки, будьте в курсе ее  передвижения</p>
 				</div>
 			</div>
 		</div>

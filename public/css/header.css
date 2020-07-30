@@ -127,3 +127,64 @@ display: block;
 .langElem:hover {
     cursor: pointer;
 }
+@media screen and (min-width: 1000px) {
+		.burger{
+			visibility: hidden;
+		}
+}
+@media screen and (max-width: 1000px) {
+	.contacts, .lan-dropdown, .profile0{
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 765px){
+	 .contacts, .lan-dropdown{
+		display: none;
+	}
+	header {
+		height: 19vh;
+	}
+	.logoImg {
+		height: 18vw;
+    position: relative;
+    top: 10vw;
+	}
+	.profile0, .dropdown-menu {
+		visibility: hidden;
+	}
+	.burger {
+	position: relative;
+    top: 6.5vh;
+    right: 0;
+    left: 57vw;
+
+	}
+	.burger img {
+	width: 18vw;
+    height: 10vh;
+	}
+
+}
+
+
+@media screen and (max-width: 320px) {
+	.burger {
+	position: relative;
+    top: 6.2vh;
+    left: 58vw;
+	}
+}
+@media screen and (min-width: 414px) {
+
+}
+@media screen and (min-height: 812px) {
+	.burger {
+	position: relative;
+   	top: 4.5vh;
+    right: 0;
+    left: 57vw;
+
+	}
+}
