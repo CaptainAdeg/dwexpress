@@ -103,3 +103,31 @@ background-image: url('../img/modal-icons/modal3/message.svg');
 background-position-y: 7px;
 }
 #third4 {background-image: url('../img/modal-icons/modal3/pen.svg');}
+
+@media screen and (min-width: 320px) and (max-width: 765px) {
+	.modal-content3 {
+		width: auto;
+	}
+	.modal-content3 input {
+		width: 83vw;
+		margin-left: 8vw;
+		top: 6vh;
+	}
+	.b-but3 {
+		margin-left: 12vw;
+		bottom: 46px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.modal-content3 {
+		height: 84vh;
+		bottom: 11vh;
+	}
+	.modal-content3 input {
+		font-size: 3vh;
+	}
+	.b-but3 {
+		font-size: 25px;
+		margin-left: 5vw;
+	}
+}

@@ -135,3 +135,58 @@ align-items: center;
 flex-direction: column;
 border:1px solid #f6f5f4;
 border-radius: 0px;				}
+
+
+@media screen and (min-width: 320px) and (max-width: 765px) {
+	.slider {
+		display: none;
+	}
+	.info-all {
+    padding: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+}
+	.address {
+		padding: 15px;
+		flex-direction: column-reverse;
+	}
+	.address-info {
+		margin-left: 0;
+	}
+	.address-info #all {
+		font-size: 4vh;
+		margin-bottom: -17px;
+	}
+	.address-info .info-source {
+		font-size: 3vh;
+		margin-bottom: -10px;
+	}
+	.address-map {
+		width: 92vw;
+	}
+	.about_us {
+		padding: 15px;
+	}
+	.about_us #src2-2 {
+		margin-left: 0;
+	}
+	.description, .gallery-line {
+		margin-left: 0;
+	} 
+	.gallery, #gallery {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.address-map {
+		width: 91vw;
+	}
+	.address-info #all {
+		margin-bottom: -24px;
+	}
+	.address-info .info-source {
+		margin-bottom: -13px;
+	}
+}

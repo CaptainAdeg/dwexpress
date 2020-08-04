@@ -1,0 +1,47 @@
+.status-page {
+	padding: 10px;
+}
+.status {
+	padding: 61px;
+	font-size: 2.5vh;
+}
+.status__info {
+	width: 50vw;
+}
+.block-row {
+	display: flex;
+	flex-direction: column;
+}
+.block-row .row, .column .row {
+	display: inline-flex;
+	margin-top: 2vh;
+}
+.block-row .img, .column .img {
+	width: 3vw;
+	height: 3.2vh;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border: 3px solid #00AFFF;
+	background-repeat: no-repeat;
+	background-size: 1.4vw;
+    background-position-x: 0.9vw;
+}
+.block-row input, .row input {
+	width: 30vw;
+    height: 3vh;
+   	border-top-right-radius: 30px;
+   	border-bottom-right-radius: 30px;
+   	border: 3px solid #00AFFF;
+	outline: none;
+	text-align: center;
+	background-color: #F0F0F0;
+}
+.status__map {
+	width: 36%;
+    height: 40vh;
+    position: absolute;
+    background-color: #808080;
+    left: 49vw;
+    bottom: 26vh;
+}
+

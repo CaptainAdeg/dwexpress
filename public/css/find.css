@@ -87,3 +87,21 @@ right: 19px;
 top: 87px;
 width: 40px;
 }
+@media screen and (min-width: 320px) and (max-width: 765px) {
+	.modal-content1 {
+		width: 95vw;
+	} .modal-content1 input {
+		width: 53vw;
+		font-size: 2vh;
+	}
+}
+@media screen and (max-width: 320px) {
+.modal-content1 {
+	width: 98vw;
+}
+.modal-content1 input {
+	width: 51vw;
+	font-size:1.9vh;
+}
+
+}

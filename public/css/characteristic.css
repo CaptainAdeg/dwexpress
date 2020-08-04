@@ -140,3 +140,60 @@ top: 65px;
 outline: none;
 border:1px solid #00AEFF;
 }
+
+
+
+@media screen and (min-width: 320px) and (max-width: 765px) {
+.modal-content2 {
+		width: 99vw;
+		height: 76vh;
+	}
+	.modal-content2 .input1 {
+		width: 57vw;
+	}
+	.modal-content2 .input2 {
+		top:23vh;
+		width: 57vw;
+	}
+	.modal-content2 .input3 {
+		width: 57vw;
+		font-size: 2.6vh;
+	}
+	.modal-content2 #block2 {
+		right: auto;
+		top: 26vh;
+		width: 57vw;
+	}
+	.b-but2 {
+		right: 0;
+		left: 29vw;
+		top: 6vh;
+	}
+}
+@media screen and (max-width: 320px) {
+	.modal-content2 {
+		height: 79vh;
+		position: relative;
+    	bottom: 8vh;
+	}
+	.modal-content2 input {
+		margin-left: 21vw;
+	}
+	.modal-content2 .input1 {
+		margin-top: 14px;
+	}
+	.modal-content2 #block2 {
+		top: 28vh;
+	}
+	.modal-content2 .input2 {
+		top:25vh;
+	}
+	.modal-content2 .input3 {
+		bottom: 1vh;
+	}
+	.b-but2 {
+		height: 8vh;
+		top: 1vh;
+		left: 25vw;
+	}
+}	
