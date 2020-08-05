@@ -55,8 +55,9 @@ outline: none;
 margin-left: 40%;
 }
 .profile0 img {
-position: relative;
-top: 30px;
+    position: relative;
+    top: 49px;
+    height: 5vh
 }
 .language {
 display: flex;

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>oform v2.0</title>
+        <style>
+            .status-page {
+            padding: 10px;
+            }
+            .status {
+            padding: 61px;
+            font-size: 2.5vh;
+            }
+            .info_header {
+            text-align: center;
+            }
+            .form__info {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            }
+            .block-row {
+            display: flex;
+            flex-direction: column;
+            }
+            .block-row .row, .column .row {
+            display: inline-flex;
+            margin:10px;
+            }
+            .block-row .img, .column .img {
+            width: 3vw;
+            height: 3.2vh;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border: 3px solid #00AFFF;
+            background-repeat: no-repeat;
+            background-size: 1.4vw;
+            background-position-x: 0.9vw;
+            }
+            .block-row input, .row input {
+            width: 30vw;
+            height: 3vh;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border: 3px solid #00AFFF;
+            outline: none;
+            text-align: center;
+            background-color: #F0F0F0;
+            }
+            #r1 {
+            border-right: 2px solid red;	
+            }
+
+            .block-row #Dest {
+            	width:10vw;
+            	justify-content: center;
+            }
+            .block-row #que {
+            	justify-content: space-around;
+   				width: 34vw;
+            }
+        </style>
+    </head>
+    <body>
+
+        <section>
+        	
+            <div class="form__header">
+                <div class="header__buttons">
+                    <button></button>
+                    <button></button>
+                </div>
+            </div>
+            <hr>
+            <div class="info_header">
+                <h2>Отправитель:</h2>
+            </div>
+            <div class="form__info">
+                <div class="block">
+                    <div class="block-row" id="r1">
+                        <div class="row" >
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
+                            <input type="text" placeholder="Ф.И.О получателя">
+                        </div>
+                        <div class="row">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/call.svg');"></div>
+                            <input type="text" placeholder="Номер телефона получателя">
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-row">
+                        <div class="row">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
+                            <input type="text" placeholder="Ф.И.О получателя">
+                        </div>
+                        <div class="row">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/call.svg');"></div>
+                            <input type="text" placeholder="Номер телефона получателя">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="form__info">
+                <div class="block">
+                    <div class="block-row" id="r1">
+                        <div class="row" >
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
+                            <input type="text" placeholder="Ф.И.О получателя">
+                        </div>
+                        <div class="row">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/call.svg');"></div>
+                            <input type="text" placeholder="Номер телефона получателя">
+                        </div>
+                        <div class="row" >
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
+                            <input type="text" placeholder="Ф.И.О получателя">
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-row">
+                        <div class="row">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
+                            <input type="text" placeholder="Ф.И.О получателя">
+                        </div>
+                        <div class="row">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/call.svg');"></div>
+                            <input type="text" placeholder="Номер телефона получателя">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="form__info">
+                <div class="block">
+                    <div class="block-row" id="r1">
+                        <div class="row" id="que">
+                            <label><input id="Dest" type="radio" name="user" value="Open1" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                            <button class="m-quest-block" data-modal="myModal1"><img src=""></button>
+                        </div>
+                        <div class="row"  id="que">
+                          	<label><input id="Dest" type="radio" name="user" value="Open2" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                            <button class="m-quest-block" data-modal="myModal2"><img src=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-row">
+                        <div class="row" id="que">
+                           <label><input id="Dest" type="radio" name="user" value="Open3" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                            <button class="m-quest-block" data-modal="myModal3"><img src=""></button>
+                        </div>
+                        <div class="row" id="que">
+                           <label><input id="Dest" type="radio" name="user" value="Open4" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                            <button class="m-quest-block" data-modal="myModal4"><img src=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <div id='Block1' style='display: none;'>
+Saint Louis
+</div>
+<div id='Block2' style='display: none;'>
+Kaga
+</div>
+<div id='Block3' style='display: none;'>
+Friedrich der Grosse
+</div>
+<div id='Block4' style='display: none;'>
+Kawakaze
+</div>
+
+<link rel="stylesheet" href="modal/quest1.css">
+<div id="myModal1" class="modal">
+  <div class="modal-content1">
+    <div><span class="close" data-modal="myModal1">&times;</span></div>
+	<div class="content">
+	<div class="content__header">
+		<h2><i>Коробка + уголок -</i></h2>
+	</div>
+	<hr>
+	<div class="content__info">
+		<p>Данный тип упаковки подходит для сборных совмеситимых товаров - хрупких, деликатных грузов, а также предметов, способных повредить или испортить соседствующие отправление. Также необходимо упаковывать товар таким образом, если вам важна сохранность фирменных упаковок  от производителей - это наиболее актуально для обуви и сумок.
+		Защитные уголки может увеличить вес посылка, что соответсвенно, может повлиять на конечную стоимость перевозки.</p>
+	</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" href="modal/quest2.css">
+<div id="myModal2" class="modal">
+  <div class="modal-content2">
+    <div><span class="close" data-modal="myModal2">&times;</span></div>
+	<div class="content">
+	<div class="content__header">
+		<h2><i>Коробка -</i></h2>
+	</div>
+	<hr>
+	<div class="content__info">
+		<p>Данный тип упаковки подходит для сборных совмеситимых товаров. В слуае если если внешний вид фирменный коробки не является приоритетным, или на вообще не нужна, то ее можно будет удалить( указывать в примечаний ). </p>
+	</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" href="modal/quest3.css">
+<div id="myModal3" class="modal">
+  <div class="modal-content3">
+    <div><span class="close" data-modal="myModal3">&times;</span></div>
+	<div class="content">
+	<div class="content__header">
+		<h2><i>Обрещетка -</i></h2>
+	</div>
+	<hr>
+	<div class="content__info">
+		<p>Самый подходящий вариант упаковки хрупких посылок, а также для специфических категорий товаров - оборудований, оргтехники, стеклянных и керамических изделий.
+При отправке посылка не забывайте  о температурных колебаниях в зависимости от сезона - некоторые виды товаров могут негативно реагировать на изменения погодного режима. </p>
+	</div>
+</div>
+</div>
+</div>
+<link rel="stylesheet" href="modal/quest4.css">
+<div id="myModal4" class="modal">
+  <div class="modal-content4">
+    <div><span class="close" data-modal="myModal4">&times;</span></div>
+	<div class="content">
+	<div class="content__header">
+		<h2><i>Пленка + пакет -</i></h2>
+	</div>
+	<hr>
+	<div class="content__info">
+		<p>Подходит для упаковки нехрупкого штучного товара а также одежды, не относящейся с декоративными элементами - стразами, пайетками и т.д. нужно упаковывать в пленку а затем в коробку. </p>
+	</div>
+</div>
+</div>
+</div>
+
+    </body>
+	
+    <script>
+
+function Selected(a) {
+  var label = a.value;
+
+    if (label=="Open1") {
+       document.getElementById("myModal1").style.display='block';
+   } else {
+       document.getElementById("myModal1").style.display='none';
+   } 
+   if (label=="Open2") {
+       document.getElementById("myModal2").style.display='block';
+   } else {
+       document.getElementById("myModal2").style.display='none';
+   } 
+   if (label=="Open3") {
+       document.getElementById("myModal3").style.display='block';
+   } else {
+       document.getElementById("myModal3").style.display='none';
+   } 
+   if (label=="Open4") {
+       document.getElementById("myModal4").style.display='block';
+   } else {
+       document.getElementById("myModal4").style.display='none';
+   } 
+}
+
+	var modal = document.getElementById('myModal');
+	var buttons = document.getElementsByClassName("m-quest-block");
+	var span = document.getElementsByClassName("close");
+
+	for (var i = 0; i < buttons.length; i++) {
+	buttons[i].onclick = function() {
+    var id = this.getAttribute('data-modal');
+    var modal = document.getElementById(id);
+    modal.style.display = 'block';
+  }
+}
+
+for (var i = 0; i < span.length; i++) {
+  span[i].onclick = function() {
+    var id = this.getAttribute('data-modal');
+    var modal = document.getElementById(id);
+    modal.style.display = 'none';
+  }
+}
+
+window.onclick = function(event) {
+  var isModal = (' ' + event.target.className + ' ').indexOf(' modal ') > -1;
+  if (isModal) {
+    event.target.style.display = "none";
+  }
+}
+
+</script>
+</html>

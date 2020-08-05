@@ -16,6 +16,7 @@
     border: none;
     width: 350px;
     outline: none;
+    text-transform: uppercase;
     }
     /* The container 
     <div>
@@ -38,7 +39,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-
+    text-transform: uppercase;
     }
    
     /* Links inside the dropdown */
@@ -73,16 +74,17 @@
         }
     }
     #content1 a{
-        padding: 12px 108px;
+        padding: 12px 89px;
+        
     }
     #content2 a{
-        padding: 12px 100px;
+        padding: 12px 80px;
     }
     #content3 a{
-        padding: 12px 110px;
+        padding: 12px 100px;
     }
     #content4 a{
-        padding: 12px 76px;
+        padding: 12px 50px;
     }
     
 </style>

@@ -1,14 +1,13 @@
 ﻿.footer-bot {
 display: inline-flex;
 width: 100%;
-height: 200px;
+height: 120px;
 order: 4;
+
 }
 .conlogo {
-width: 130px;
+width: 100px;
 position: relative;
-top: 20px;
-right: 150px;
 }
 .connect {
 display: flex;
@@ -97,9 +96,9 @@ flex: 1 1 0;
 order: 4;
 }
 #dwe {
-width: 500px;
-position: relative;
-right: 200px;
+width: 300px;
+position:relative;
+right: 300px;
 }
 .toTop {
 	position: fixed;

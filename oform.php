@@ -1,6 +1,7 @@
 <?php require_once "templates/header.php"; ?>
 <?php require_once "templates/navbar.php"; ?>
 <link rel="stylesheet" href="public/css/oform.css">
+
 <section class="form-page">
     <div class="page-container">
         <nav class="country">
@@ -119,4 +120,5 @@
     </div>
 </section>
 
+<script src="public/js/modal.js"></script>
 <?php require_once "templates/footer.php"; ?>

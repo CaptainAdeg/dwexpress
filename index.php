@@ -224,4 +224,4 @@
 </div>
 <script type="text/javascript" src="public/js/modal.js"></script>
 <?php require_once "templates/footer.php"; ?>
-<a href="#"></a>
+<a href="#" class="top" style="width: 300px; position: fixed;"></a>

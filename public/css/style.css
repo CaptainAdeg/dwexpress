@@ -26,7 +26,7 @@ font-size: 1.3em;
 }
 .main-text hr {
 	position: relative;
-	top: 90px;
+	top: 65px;
 	width: 69%;
 }
 .function {
@@ -37,7 +37,7 @@ justify-content: center;
 .function-line {
 display: inline-flex;
 position: relative;
-padding-bottom: 215px;
+padding-bottom: 100px;
 }
 .function-line a {
 text-decoration: none;
@@ -140,7 +140,7 @@ color: #094E7A;
 padding: 40px;	
 position: relative;
 left: 9.5em;
-top: 3em;
+top: 100px;
 }
 .middle-line {
 position: relative;
@@ -159,7 +159,7 @@ height: 3px;
 .banner-text {
 font-size: 33px;
 text-align: center;
-padding: 170px;
+padding: 100px;
 color: #02628B;
 }
 .oform {
@@ -171,9 +171,12 @@ color: #02628B;
     outline: none;
     font-size: 30px;
     color: white;
+    border: none;
+    margin-bottom: 3vh;
 }
 .oform a {
 	color: white;
+    text-decoration: none;
 }
 .banner {
 margin-top: 300px;

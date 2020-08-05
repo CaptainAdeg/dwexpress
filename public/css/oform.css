@@ -232,6 +232,27 @@ height: 2px;
 	.mob-page-pocket, .mob-page-service {
 		display: none;
 	}
+	.page-info-more {
+		display: flex;
+	}
+	.page-info-more input {
+		margin-right: 0;
+	}
+	.more-delivery {
+		padding-left: 11vw;
+	}
+	.more-price {
+		padding-right:11vw;
+	}
+	.more-delivery, .more-price {
+		width: 50vw;
+	}
+	.more-delivery .icons {
+		right: 78.3vw;
+	}
+	.more-price .icons {
+		right: 45.7vw;
+	}
 }
 @media screen and (min-width: 320px) and (max-width: 765px) {
 	.page-pocket, .page-service {
@@ -340,6 +361,12 @@ height: 2px;
 		font-size: 2.3vh;
 	}
 }
+
+
+
+
+
+
 @media screen and (max-width: 320px) {
 	
 	.page-info .icons, .page-info-more .icons {
