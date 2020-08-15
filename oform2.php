@@ -1,6 +1,8 @@
 <?php require_once "templates/header.php"; ?>
 <?php require_once "templates/navbar.php"; ?>
 <link rel="stylesheet" href="public/css/oform2.css">
+<link rel="stylesheet" href="public/css/style.css">
+<link rel="stylesheet" href="public/css/header.css">
 <section>
         <div class="form__header">
                 <div class="header__buttons">
@@ -244,4 +246,5 @@ window.onclick = function(event) {
 </script>
     
     </section>
+    <script src="public/js/mob.js"></script>
 <?php require_once "templates/footer.php"; ?>

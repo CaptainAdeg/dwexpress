@@ -1,6 +1,8 @@
 <?php require_once "templates/header.php"; ?>
 <?php require_once "templates/navbar.php"; ?>
 <link rel="stylesheet" href="public/css/knowledge.css">
+<link rel="stylesheet" href="public/css/style.css">
+<link rel="stylesheet" href="public/css/header.css">
 <section class="rules">
 	<div class="types">
 		<div class="type-deal">
@@ -74,4 +76,5 @@
 		</div>
 	</div>
 </section>
+<script src="public/js/mob.js"></script>
 <?php require_once "templates/footer.php"; ?>

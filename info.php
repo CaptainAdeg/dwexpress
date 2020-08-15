@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="public/css/about.css">
 <link rel="stylesheet" href="public/css/header.css">
 <link rel="stylesheet" href="public/css/footer.css">
+<link rel="stylesheet" href="public/css/style.css">
+<link rel="stylesheet" href="public/css/header.css">
 <!--<section>
     <div class="slider">
                  <div id="img-container" class="images-container">
@@ -108,4 +110,5 @@
     display: none;
     }
 </style>
+<script src="public/js/mob.js"></script>
 <?php require_once "templates/footer.php"; ?>

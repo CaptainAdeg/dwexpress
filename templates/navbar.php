@@ -88,6 +88,9 @@
     }
     
 </style>
+<link rel="stylesheet" href="public/css/header.css">
+<link rel="stylesheet" href="public/css/style.css">
+<script type="text/javascript" src="public/js/mob.js"></script>
 <div class="dropdown-menu">
     <div class="dropdown" id="drop1">
         <button class="dropbtn"><a href="index.php">Онлайн сервисы</a></button>
@@ -125,6 +128,85 @@
         </div>
     </div>
 </div>
+
+<input type="checkbox" id="side-checkbox" />
+    <div class="side-panel">
+    <label class="side-button-2" for="side-checkbox">+</label>    
+    <div class="side-title">Выдвижная панель:</div>
+    <p>Информация в панеле</p>
+
+    <div class="wrappere">
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-item__trigger">
+                    <a href="index.php">Онлайн сервисы</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="profile.php">Личный кабинет</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="index.php#but1">Отслеживание</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="index.php#but2">Калькулятор</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="index.php#but3">Обратный звонок</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-item__trigger">
+                    <a href="info.php">О компаний</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="info.php#all">Все контакты</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="info.php#src2-2">Наша деятельность</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="info.php#gallery">Галерея</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-item__trigger">
+                    <a href="tarifs.php">Тарифы и услуги</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="tarifs.php#src3-1">Сроки доставки</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="tarifs.php#src3-2">Страхование</a>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-item__trigger">
+                    <a href="knowledge.php">Полезно знать</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="knowledge.php#src4-1">Типовый договор</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="knowledge.php#src4-2">Способы оплаты</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="knowledge.php#src4-3">Функций выбора упаковки</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="knowledge.php#src4-4">Закон о Почте</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="knowledge.php#src4-5">Запрещено перевозить</a>
+                </div>
+                <div class="accordion-item__content">
+                    <a href="knowledge.php#src4-6">Частые вопросы</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <script type="text/javascript">
     window.onscroll = function showHeader() {
     var header = document.querySelector('.dropdown-menu');

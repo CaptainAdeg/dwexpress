@@ -1,6 +1,8 @@
 <?php require_once "templates/header.php"; ?>
 <?php require_once "templates/navbar.php"; ?>
 <?php require_once "templates/slider.php"; ?>
+<link rel="stylesheet" href="public/css/style.css">
+<link rel="stylesheet" href="public/css/header.css">
 <section class="tarifs">
     <link rel="stylesheet" href="public/css/tarifs.css">
     <link rel="stylesheet" href="public/css/header.css">
@@ -143,3 +145,4 @@
     display: none;
     }
 </style>
+<script src="public/js/mob.js"></script>
