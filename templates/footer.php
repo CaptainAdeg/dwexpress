@@ -153,7 +153,6 @@
             <a href="" id="wpp-m" style="background-image: url('public/img/social/wp.svg');"></a>
         </div>
     </div>
-    <img onclick="location.href = '#'" src="public/img/toTop.png" class="toTop">
 </footer>
 <script src="public/js/main.js"></script>
 </body>

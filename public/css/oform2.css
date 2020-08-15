@@ -1,0 +1,110 @@
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+ 
+:focus::-moz-placeholder {
+  color: transparent
+}
+ 
+:focus:-moz-placeholder {
+  color: transparent
+}
+ 
+:focus:-ms-input-placeholder {
+  color: transparent
+}   
+            section {
+            padding: 5vh;
+            }
+            .status-page {
+            padding: 10px;
+            }
+            .status {
+            padding: 61px;
+            font-size: 2.5vh;
+            }
+            .header__buttons button{
+            width: 8vw;
+            height: 4vh;
+            background-color: #fff;
+            border-radius: 25px;
+            color: #4BC6FF;
+            border-color: #4BC6FF;
+            outline: none;
+            }
+            .info_header {
+            text-align: center;
+            }
+            .form__info {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            }
+            .block-row {
+            display: flex;
+            flex-direction: column;
+            }
+            .block-row .row, .column .row {
+            display: inline-flex;
+            margin:10px;
+            }
+            .block-row .img, .column .img {
+            width: 3vw;
+            height: 5.33vh;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border: 3px solid #00AFFF;
+            background-repeat: no-repeat;
+            background-size: 1.6vw;
+            background-position-x: 0.9vw;
+            background-position-y: center;
+            border-right: none;
+            }
+            .block-row input, .row input {
+            width: 30vw;
+            height: 5.3vh;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border: 3px solid #00AFFF;
+            outline: none;
+            text-align: center;
+            background-color: #F0F0F0;
+            font-size: 1em;
+            }
+            #r1 {
+            border-right: 2px solid red;	
+            }
+
+            .block-row #Dest {
+            	width:10vw;
+            	justify-content: center;
+            }
+            .block-row #que  {
+            	justify-content: space-between;
+   				width: 28vw;
+            }
+            .block-row #submit {
+                justify-content: center;
+                width: 28vw;
+                height: 5vh;
+                margin-top: 2.5vh;
+            }
+            .m-quest-block {
+                width: 2.5vw;
+                height: 5vh;
+                background-image: url('../img/icons-for-oform/question.svg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                vertical-align: 1.5vh;
+                border: none;
+            }   
+            .submit {
+                background-color: #00AFFF;
+                border-radius: 30px;
+                width: 20vw;
+                outline: none;
+                margin-left: 8vw;
+            }
+            .row label > span {
+                vertical-align: 1.5vh;
+            }

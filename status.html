@@ -12,9 +12,19 @@
 				<h1>ID:</h1><span>15254867165486</span>
 				<hr>
 			</div>
+			<div class="status__header">
+				<div class="column2">
+					<h3>Статус:</h3>
+					<h2>В пути</h2>
+				</div>
+				<div class="column2">
+					<h3>Дата отправки:</h3>
+					<h2>27.08.20</h2>
+				</div>
+			</div> 
+			
 			<div class="status__info">
 				<div class="block">
-					<h2>Отправитель:</h2>
 					<div class="block-row">
 						<div class="row">
 						<div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
@@ -45,8 +55,7 @@
 			</div>
 			<div id="second">
 			<div class="status__info-more">
-				<h2>Дополнительная информация</h2>
-				<div class="column">
+				<div class="column" id="input">
 					<div class="row">
 						<div class="img" style="background-image: url('public/img/icons-for-oform/scale.svg');"></div>
 						<input type="text" placeholder="Вес посылки"></div>
@@ -54,18 +63,18 @@
 						<div class="img" style="background-image: url('public/img/icons-for-oform/world.svg');"></div>
 						<input type="text" placeholder="Город доставки"></div>
 				</div>
-				<div class="column">
+				<div class="column" id="dashed">
+					<div class="sub-col">
+						<div class="row">
+						<label><input id="Dest" type="radio" name="user" value="Open4" aria-required="true" onChange="Selected(this)">Пленка + пакет</label>
+                            <button class="m-quest-block" data-modal="myModal4"><img src=""></button>
+						</div>
 					<div class="row">
-						<div class="img" style="background-image: url('public/img/icons-for-oform/world.svg');"></div>
-						<input type="text" placeholder="Область доставки"></div>
-					<div class="row">
-						<div class="img" style="background-image: url('public/img/icons-for-oform/world.svg');"></div>
-						<input type="text" placeholder="Адресс доставки"></div>
-				</div>
-				<div class="column2"></div>
-				<div class="column2">
-					<h3>Дата отправки:</h3>
-					<h2>27.08.20</h2>
+						<label><input id="Dest" type="radio" name="user" value="Open4" aria-required="true" onChange="Selected(this)">Услуга фотоотчёта</label>
+                            <button class="m-quest-block" data-modal="myModal4"><img src=""></button>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 			</div>

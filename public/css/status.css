@@ -5,8 +5,21 @@
 	padding: 61px;
 	font-size: 2.5vh;
 }
+.status__id {
+	color: #003250;
+}
+.status__header {
+	display: inline-flex;
+	width: 100%;
+	color: #003250;
+}
+.status__header .column2 {
+	width: 50%;
+	text-align:center;
+}
 .status__info {
 	width: 50vw;
+	display: none;
 }
 .block-row {
 	display: flex;
@@ -18,17 +31,17 @@
 }
 .block-row .img, .column .img {
 	width: 3vw;
-	height: 3.2vh;
+	height: 4.4vh;
 	border-top-left-radius: 30px;
 	border-bottom-left-radius: 30px;
 	border: 3px solid #00AFFF;
 	background-repeat: no-repeat;
-	background-size: 1.4vw;
-    background-position-x: 0.9vw;
+	background-size: 1.8vw;
+    background-position-x: 0.7vw;
 }
 .block-row input, .row input {
 	width: 30vw;
-    height: 3vh;
+    height: 4vh;
    	border-top-right-radius: 30px;
    	border-bottom-right-radius: 30px;
    	border: 3px solid #00AFFF;
@@ -37,11 +50,40 @@
 	background-color: #F0F0F0;
 }
 .status__map {
-	width: 36%;
+	width: 100%;
     height: 40vh;
-    position: absolute;
     background-color: #808080;
-    left: 49vw;
-    bottom: 26vh;
 }
-
+.status__info-more {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3vh;
+}
+#Dest {
+	width: 10vw;
+}
+.row label {
+	width: 25vw;
+}
+#input {
+	border-right: 3px solid #00AFFF;
+    margin-right: 12vw;
+}
+#dashed {
+	border: 3px dashed ;
+    border-radius: 20px;
+    width: 50%;
+}
+.m-quest-block {
+	width: 3vw;
+}
+.status_button {
+	margin-top: 5vh;
+}
+.status_button button {
+	width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    outline:none;
+    border-color: #00AFFF;
+}

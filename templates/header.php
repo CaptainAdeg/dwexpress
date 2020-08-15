@@ -78,9 +78,17 @@
                 </div>
                 
             </div>
-            <span class="burger">
+            <div class="side-button-1-wr">
+    <label class="side-button-1" for="side-checkbox">
+        <div class="side-b side-open">
               <img src="public/img/icons-mobile/burger.svg">
-            </span>
+            </div>
+    <div class="side-b side-close">
+              <img src="public/img/icons-mobile/burger.svg">
+            </div>
+
+    </label>
+</div>
 
            <!-- <script>
               function open() {

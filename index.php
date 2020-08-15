@@ -10,12 +10,18 @@
 		<div class="mob-banner">
 			<div class="mob-banner-item">
 				<div class="banner-item__text"><p>Доставка посылок из Китая в Казахстан и Россию</p></div>
-				<button class="banner-item__button"><a href="oform.php">Оформить заказ</a></button>
+				<button class="banner-item__button"><a href="oform2.php">Оформить заказ</a></button>
 			</div>
 		</div>
 	</div>
 
-	<div class="wrappere">
+	<input type="checkbox" id="side-checkbox" />
+	<div class="side-panel">
+    <label class="side-button-2" for="side-checkbox">+</label>    
+    <div class="side-title">Выдвижная панель:</div>
+    <p>Информация в панеле</p>
+
+    <div class="wrappere">
 		<div class="accordion">
 			<div class="accordion-item">
 				<div class="accordion-item__trigger">
@@ -84,6 +90,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 <script type="text/javascript" src="public/js/mob.js"></script>
 
 		<div class="main-text">
@@ -224,4 +231,4 @@
 </div>
 <script type="text/javascript" src="public/js/modal.js"></script>
 <?php require_once "templates/footer.php"; ?>
-<a href="#" class="top" style="width: 300px; position: fixed;"></a>
+<img onclick="location.href = '#'" src="public/img/toTop.png" class="toTop">

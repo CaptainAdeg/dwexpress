@@ -1,73 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>oform v2.0</title>
-        <style>
-            .status-page {
-            padding: 10px;
-            }
-            .status {
-            padding: 61px;
-            font-size: 2.5vh;
-            }
-            .info_header {
-            text-align: center;
-            }
-            .form__info {
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            }
-            .block-row {
-            display: flex;
-            flex-direction: column;
-            }
-            .block-row .row, .column .row {
-            display: inline-flex;
-            margin:10px;
-            }
-            .block-row .img, .column .img {
-            width: 3vw;
-            height: 3.2vh;
-            border-top-left-radius: 30px;
-            border-bottom-left-radius: 30px;
-            border: 3px solid #00AFFF;
-            background-repeat: no-repeat;
-            background-size: 1.4vw;
-            background-position-x: 0.9vw;
-            }
-            .block-row input, .row input {
-            width: 30vw;
-            height: 3vh;
-            border-top-right-radius: 30px;
-            border-bottom-right-radius: 30px;
-            border: 3px solid #00AFFF;
-            outline: none;
-            text-align: center;
-            background-color: #F0F0F0;
-            }
-            #r1 {
-            border-right: 2px solid red;	
-            }
-
-            .block-row #Dest {
-            	width:10vw;
-            	justify-content: center;
-            }
-            .block-row #que {
-            	justify-content: space-around;
-   				width: 34vw;
-            }
-        </style>
-    </head>
-    <body>
-
-        <section>
-        	
-            <div class="form__header">
+<?php require_once "templates/header.php"; ?>
+<?php require_once "templates/navbar.php"; ?>
+<link rel="stylesheet" href="public/css/oform2.css">
+<section>
+        <div class="form__header">
                 <div class="header__buttons">
-                    <button></button>
-                    <button></button>
+                    <button>Россия</button>
+                    <button>Казахстан</button>
                 </div>
             </div>
             <hr>
@@ -79,11 +17,11 @@
                     <div class="block-row" id="r1">
                         <div class="row" >
                             <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
-                            <input type="text" placeholder="Ф.И.О получателя">
+                            <input type="text" placeholder="Ф.И.О отправителя">
                         </div>
                         <div class="row">
                             <div class="img" style="background-image: url('public/img/icons-for-oform/call.svg');"></div>
-                            <input type="text" placeholder="Номер телефона получателя">
+                            <input type="text" placeholder="Номер телефона отправителя">
                         </div>
                     </div>
                 </div>
@@ -105,28 +43,36 @@
                 <div class="block">
                     <div class="block-row" id="r1">
                         <div class="row" >
-                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
-                            <input type="text" placeholder="Ф.И.О получателя">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/scale.svg');"></div>
+                            <input type="text" placeholder="Вес посылки">
                         </div>
                         <div class="row">
-                            <div class="img" style="background-image: url('public/img/icons-for-oform/call.svg');"></div>
-                            <input type="text" placeholder="Номер телефона получателя">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/world.svg');"></div>
+                            <input type="text" placeholder="Область доставки">
                         </div>
                         <div class="row" >
-                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
-                            <input type="text" placeholder="Ф.И.О получателя">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/world.svg');"></div>
+                            <input type="text" placeholder="Город доставки">
+                        </div>
+                        <div class="row" >
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/world.svg');"></div>
+                            <input type="text" placeholder="Адрес доставки">
                         </div>
                     </div>
                 </div>
                 <div class="block">
                     <div class="block-row">
                         <div class="row">
-                            <div class="img" style="background-image: url('public/img/icons-for-oform/human.svg');"></div>
-                            <input type="text" placeholder="Ф.И.О получателя">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/scan.svg');"></div>
+                            <input type="text" placeholder="Трекинг номер посылки">
                         </div>
                         <div class="row">
-                            <div class="img" style="background-image: url('public/img/icons-for-oform/call.svg');"></div>
-                            <input type="text" placeholder="Номер телефона получателя">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/pen.svg');"></div>
+                            <input type="text" placeholder="Описание вложения">
+                        </div>
+                        <div class="row">
+                            <div class="img" style="background-image: url('public/img/icons-for-oform/dollar.svg');"></div>
+                            <input type="text" placeholder="Объявленная стоимость">
                         </div>
                     </div>
                 </div>
@@ -136,11 +82,11 @@
                 <div class="block">
                     <div class="block-row" id="r1">
                         <div class="row" id="que">
-                            <label><input id="Dest" type="radio" name="user" value="Open1" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                            <label><input id="Dest" type="radio" name="user" value="Open4" aria-required="true" onChange="Selected(this)"><span>Пленка + пакет</span></label>
                             <button class="m-quest-block" data-modal="myModal1"><img src=""></button>
                         </div>
                         <div class="row"  id="que">
-                          	<label><input id="Dest" type="radio" name="user" value="Open2" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                          	<label><input id="Dest" type="radio" name="user" value="Open2" aria-required="true" onChange="Selected(this)"><span>Коробка</span></label>
                             <button class="m-quest-block" data-modal="myModal2"><img src=""></button>
                         </div>
                     </div>
@@ -148,30 +94,35 @@
                 <div class="block">
                     <div class="block-row">
                         <div class="row" id="que">
-                           <label><input id="Dest" type="radio" name="user" value="Open3" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                           <label><input id="Dest" type="radio" name="user" value="Open1" aria-required="true" onChange="Selected(this)"><span>Коробка + уголок</span></label>
                             <button class="m-quest-block" data-modal="myModal3"><img src=""></button>
                         </div>
                         <div class="row" id="que">
-                           <label><input id="Dest" type="radio" name="user" value="Open4" aria-required="true" onChange="Selected(this)">Покажи скрытый блок</label>
+                           <label><input id="Dest" type="radio" name="user" value="Open3" aria-required="true" onChange="Selected(this)"><span>Обрещетка</span></label>
                             <button class="m-quest-block" data-modal="myModal4"><img src=""></button>
                         </div>
                     </div>
                 </div>
             </div>
             <hr>
-        </section>
-        <div id='Block1' style='display: none;'>
-Saint Louis
-</div>
-<div id='Block2' style='display: none;'>
-Kaga
-</div>
-<div id='Block3' style='display: none;'>
-Friedrich der Grosse
-</div>
-<div id='Block4' style='display: none;'>
-Kawakaze
-</div>
+            <div class="form__info">
+                <div class="block">
+                    <div class="block-row" id="r1">
+                        <div class="row" id="que">
+                            <label><input id="Dest" type="radio" name="user" value="Open1" aria-required="true" onChange="Selected(this)"><span>Услуга фотоотчета</span></label>
+                            <button class="m-quest-block" data-modal="myModal1"><img src=""></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="block-row">
+                        <div class="row" id="submit">
+                            <button class="submit">Оформить заказ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
 
 <link rel="stylesheet" href="modal/quest1.css">
 <div id="myModal1" class="modal">
@@ -236,8 +187,6 @@ Kawakaze
 </div>
 </div>
 
-    </body>
-	
     <script>
 
 function Selected(a) {
@@ -293,4 +242,6 @@ window.onclick = function(event) {
 }
 
 </script>
-</html>
+    
+    </section>
+<?php require_once "templates/footer.php"; ?>

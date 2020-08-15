@@ -104,8 +104,8 @@ right: 300px;
 	position: fixed;
     width: 80px;
     height: 80px;
-    bottom: -4px;
-    right: 1720px;
+    bottom: 0;
+    right: auto;
 }
 
 @media screen and (min-width: 769px) {
