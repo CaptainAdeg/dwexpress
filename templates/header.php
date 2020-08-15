@@ -44,7 +44,7 @@
                 <img src="public/img/geo.png" class="geoForTracking">
                 </div>-->
             <div class="profile0">
-                <a href="">
+                <a href="profile.php">
                 <img src="public/img/white-prof.svg">
                 </a>
             </div>

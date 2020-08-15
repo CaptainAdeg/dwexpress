@@ -4,7 +4,7 @@
     position: relative;
     height: 470px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 3em;
     overflow: hidden;
     }
     .images-container {

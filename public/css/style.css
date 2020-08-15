@@ -31,13 +31,13 @@ font-size: 1.3em;
 }
 .function {
 display: flex;
-margin-top: 130px;
+margin-top: 6em;
 justify-content: center;
 }
 .function-line {
 display: inline-flex;
 position: relative;
-padding-bottom: 100px;
+padding-bottom: 3em;
 }
 .function-line a {
 text-decoration: none;
@@ -87,7 +87,7 @@ height: 100px;
 }
 .info {
 display: flex;
-margin-top: 130px;
+margin-top: 3em;
 padding-bottom: 30px;
 justify-content: center;
 }
@@ -140,7 +140,7 @@ color: #094E7A;
 padding: 40px;	
 position: relative;
 left: 9.5em;
-top: 100px;
+top: 1em;
 }
 .middle-line {
 position: relative;
@@ -154,12 +154,12 @@ text-align: center;
 height: 3px;
 }
 .last-page {
-	margin-bottom: -240px;
+	margin-bottom: -18em;
 }
 .banner-text {
 font-size: 33px;
 text-align: center;
-padding: 100px;
+padding: 50px;
 color: #02628B;
 }
 .oform {

@@ -6,7 +6,7 @@
 <section>
     <img src="public/img/icons/икона4-05.svg" id="human">
     <h2 class="desc" id="who">Кто то</h2>
-    <hr>
+    <hr id="first-line">
     <div class="profile-info">
         <p>Для Вас организован превосходный сервис, которая <br> поможет сократить время доставки в несколько раз</p>
     </div>
@@ -15,35 +15,27 @@
     
     <div class="profile">
         <div class="profile-display">
-            <div class="col" style=" background-image: url('public/img/icons/икона4-05.svg'); background-size: 35px; background-position-x:3px; background-position-y:15px;">
+            <div class="col" style=" background-image: url('public/img/icons/икона4-05.svg'); background-size: 35px; background-position-x:0.5vw; background-position-y:15px;">
                 <h2>Моя информация</h2>
                 <hr>
-                <p class="box">Обновите параметры входа, настройки электронной почты и секретные вопросы.</p>
+                <p class="box">Обновить, изменить личные данные.</p>
                 <div class="box2" id="col1">
-                    <p><a href="">Проверить все мои подписки на электронную почту</a></p>
-                    <br>
-                    <p><a href="">Изменить мои параметры входа</a></p>
+                    <p><a href="">Редактировать</a>
                 </div>
             </div>
             <div class="col" style=" background-image: url('public/img/icons/location.svg');background-size: 45px;">
                 <h2>Адреса</h2>
                 <hr>
-                <p class="box">Добавляйте, изменяйте
-                    или удаляйте адреса,
-                    контакты и списки 
-                    рассылки.
+                <p class="box">Добавить, изменить контактные данные.
                 </p>
                 <div class="box2" id="col2">
-                    <p><a href="">Добавить контакт</a></p>
+                    <p><a href="">Добавить</a></p>
                     <br>
-                    <p><a href="">Создать список 
-                        распределения</a>
+                    <p><a href="">Редактировать</a>
                     </p>
-                    <br>
-                    <p><a href="">Обновить мои адреса</a></p>
                 </div>
             </div>
-            <div class="col" style=" background-image: url('public/img/icons/card.svg'); background-size: 44px; background-position-x:15px; background-position-y:15px">
+            <div class="col" style=" background-image: url('public/img/icons/card.svg'); background-size: 44px; background-position-x:0.6vw; ">
                 <h2>Способ оплаты </h2>
                 <hr>
                 <p class="box">Проверьте даты истечения 
@@ -52,13 +44,10 @@
                     свои способы оплаты.
                 </p>
                 <div class="box2" id="col3">
-                    <p><a href="">Открыть платежный счет</a></p>
+                    <p><a href="">Выставление счета</a></p>
                     <br>
-                    <p><a href="">Управление способами 
-                        оплаты</a>
+                    <p><a href="">Оплата онлайн</a>
                     </p>
-                    <br>
-                    <p><a href="">Предпочтения</a></p>
                 </div>
             </div>
             <div class="col" id="col4" style=" background-image: url('public/img/icons/option.svg'); background-size: 45px; background-position-y:16px; background-position-x:1px;">
@@ -70,25 +59,7 @@
                     по отправлениям.
                 </p>
                 <div class="box2">
-                    <p><a href="">Отправка</a></p>
-                    <br>
-                    <p><a href="">Отправление грузов</a></p>
-                    <br>
-                    <p><a href="">Приезд курьера</a></p>
-                    <br>
-                    <p><a href="">Расчет сроков и стоимости 
-                        доставки</a>
-                    </p>
-                    <br>
-                    <p><a href="">Расчет сроков и стоимости 
-                        доставки</a>
-                    </p>
-                    <br>
-                    <p><a href="">Международная документация</a></p>
-                    <br>
-                    <p><a href="">UPS My Choice®</a></p>
-                    <br>
-                    <p><a href="">Претензии</a></p>
+                    <p><a href="">Задать настройки</a></p>
                 </div>
             </div>
         </div>
