@@ -96,9 +96,9 @@
         <button class="dropbtn"><a href="index.php">Онлайн сервисы</a></button>
         <div class="dropdown-content" id="content1">
             <a href="profile.php">Личный кабинет</a>
-            <a href="index.php#but1">Отслеживание</a>
-            <a href="index.php#but2">Калькулятор</a>
-            <a href="index.php#but3">Обратный звонок</a>
+            <a onclick="document.getElementById('myModal1').style.display='block'">Отслеживание</a>
+            <a onclick="document.getElementById('myModal2').style.display='block'">Калькулятор</a>
+            <a onclick="document.getElementById('myModal3').style.display='block'">Обратный звонок</a>
         </div>
     </div>
     <div class="dropdown" id="drop2">

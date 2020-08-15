@@ -1,0 +1,73 @@
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.2);  /* Black w/ opacity */
+}
+.modal-content5 {
+background-image: url('../img/social/qr.jpeg');
+background-size: cover;
+position: relative;
+background-color: rgba(255,255,255,1);
+margin: auto;
+padding: 0;
+border-radius: 30px;
+-webkit-animation-name: animatetop;
+-webkit-animation-duration: 0.4s;
+animation-name: animatetop;
+animation-duration: 0.4s;
+box-shadow: 0 0 10px black;
+width: 500px;
+height: 485px;
+border: 2px solid #00AEFF;
+}
+@-webkit-keyframes animatetop {
+from {top:-300px; opacity:0} 
+to {top:0; opacity:1}
+}
+@keyframes animatetop {
+from {top:-300px; opacity:0}
+to {top:0; opacity:1}
+}
+.close {
+color: #8DB0D1;
+float: right;
+font-size: 50px;
+font-weight: bold;
+position: relative;
+right: 11px;
+}
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+
+.modal-content5 img{
+position: absolute;
+bottom: 116px;
+right: 358px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 765px) {
+	.modal-content5 {
+		width: auto;
+	}
+	
+	
+}
+@media screen and (max-width: 320px) {
+	.modal-content5 {
+		height: 84vh;
+		bottom: 11vh;
+	}
+}

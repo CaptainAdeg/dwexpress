@@ -140,15 +140,15 @@
     <div class="connect">
         <a href="index.php"><img class="conlogo" id="dwe" src="public/img/logobot.svg"></a>
         <a href="instagram.com"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a>
-        <a href=""><img class="conlogo" id="wp" src="public/img/social/wp.svg"></a>
-        <a href=""><img class="conlogo" id="whapp"src="public/img/social/wechat.svg"></a>
+        <a ><img class="conlogo" id="wp" src="public/img/social/wp.svg"></a>
+        <a onclick="document.getElementById('myModal5').style.display='block'"><img class="conlogo" id="whapp"src="public/img/social/wechat.svg"></a>
     </div>
 </div>
     <div class="mob-footer-bot">
         <div class="mob-footer-bot__logo" style="background-image: url('public/img/logobot.svg');">
             <a href="index.php" id="dwexpress-m"></a></div>
         <div class="mob-footer-bot__connect">
-            <a href="" id="wechat-m" style="background-image: url('public/img/social/wechat.svg');"></a>
+            <a onclick="document.getElementById('myModal5').style.display='block'" id="wechat-m" style="background-image: url('public/img/social/wechat.svg');"></a>
             <a href="" id="insta-m" style="background-image: url('public/img/social/instagram.svg');"></a>
             <a href="" id="wpp-m" style="background-image: url('public/img/social/wp.svg');"></a>
         </div>

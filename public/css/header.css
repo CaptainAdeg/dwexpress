@@ -115,7 +115,7 @@ width: 15vw;
 }
 .contacts {
 width: 18vw;
-margin: auto 1vw;
+margin-top: 6vh;
 }
 .contacts > a {
 font-size: 1.3em;
@@ -126,6 +126,7 @@ text-align: center;
 }
 .logoImg {
 height: 95px;
+margin-top: 2vh;
 }
 .menu {
 display: none;
@@ -159,8 +160,8 @@ margin-left: 40%;
 }
 .profile0 img {
     position: relative;
-    top: 49px;
-    height: 5vh
+    top: 7vh;
+    height: 5vh;
 }
 .language {
 display: flex;
@@ -225,6 +226,7 @@ display: block;
 /* Show the dropdown menu on hover */
 .lan-dropdown:hover .lan-dropdown-content {
 display: block;
+z-index: 99;
 }
 .langElem {
     display: block;

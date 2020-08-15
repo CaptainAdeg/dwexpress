@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="public/css/profile.css">
 <?php require_once "templates/header.php"; ?>
 <?php require_once "templates/navbar.php"; ?>
+<link rel="stylesheet" href="public/css/profile.css">
 <link rel="stylesheet" href="public/css/style.css">
 <link rel="stylesheet" href="public/css/header.css">
 <section>

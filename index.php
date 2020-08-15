@@ -154,6 +154,12 @@
 		</p>
 	</div>
 </div>
+<link rel="stylesheet" href="public/css/wechat.css">
+<div id="myModal5" class="modal">
+	<div class="modal-content5">
+		<div><span class="close" data-modal="myModal5">&times;</span></div>
+	</div>
+</div>
 <script type="text/javascript" src="public/js/modal.js"></script>
 <?php require_once "templates/footer.php"; ?>
 <img onclick="location.href = '#'" src="public/img/toTop.png" class="toTop">
