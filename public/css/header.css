@@ -226,7 +226,8 @@ display: block;
 /* Show the dropdown menu on hover */
 .lan-dropdown:hover .lan-dropdown-content {
 display: block;
-z-index: 99;
+z-index: 999;
+position: absolute;
 }
 .langElem {
     display: block;
