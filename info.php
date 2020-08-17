@@ -74,41 +74,12 @@
         <p class="description">Мы располагаем офисами, где работают наши русские и китайские специалисты и собственным складом консолидации в Гуанчжоу, ИУ, Пекине и Шисин. Планируется открытие новых складов в таких городах, как Шэньчжень и Шанхай</p>
         <br>
     </div>
-    <h1 id="gallery">Галерея</h1>
-    <div class="gallery">
-    <div class="gallery-line">
-        <div class="square"></div>
-        <!--<div class="square">
-            <img src="">
-            </div>
-            <div class="square">
-            <img src="">
-            </div>
-            <div class="square">
-            <img src="">
-            </div>
-            <div class="square">
-            <img src="">
-            </div></div>
-            <div class="gallery-line"><div class="square"></div>
-            <div class="square">
-            <img src="">
-            </div>
-            <div class="square">
-            <img src="">
-            </div>
-            <div class="square">
-            <img src="">
-            </div>
-            <div class="square">
-            <img src="">
-            </div></div>-->
-    </div>
 </section>
 <style>
     .flex-container {
     display: none;
     }
 </style>
+<?php require_once "modal/modal.php"; ?>
 <script src="public/js/mob.js"></script>
 <?php require_once "templates/footer.php"; ?>

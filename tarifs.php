@@ -146,3 +146,4 @@
     }
 </style>
 <script src="public/js/mob.js"></script>
+<?php require_once "modal/modal.php"; ?>

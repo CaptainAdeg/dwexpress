@@ -34,9 +34,10 @@
             }
             .info_header {
             text-align: center;
+            margin-top: 3vh;
+    margin-bottom: 3vh;
             }
             .form__info {
-            width: 100vw;
             display: flex;
             justify-content: center;
             }

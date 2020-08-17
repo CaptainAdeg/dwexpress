@@ -77,4 +77,5 @@
 	</div>
 </section>
 <script src="public/js/mob.js"></script>
+<?php require_once "modal/modal.php"; ?>
 <?php require_once "templates/footer.php"; ?>
