@@ -13,7 +13,6 @@ max-width:1100px;
 width: 100%; 
 }
 .main-text {
-padding: 20px;
 text-align: center;
 color: #405F7C;
 font-family: sans-serif;
@@ -27,7 +26,6 @@ font-size: 1.3em;
 .main-text hr {
 	position: relative;
 	top: 65px;
-	width: 69%;
 }
 .function {
 display: flex;
@@ -139,17 +137,13 @@ font-size: 40px;
 color: #094E7A;
 padding: 40px;	
 position: relative;
-left: 9.5em;
+text-align: center;
 top: 1em;
 }
 .middle-line {
 position: relative;
-left: 10vw;
-width: 80vw;
 height: 4px;
 background-color: #13A2FF;
-width: 990px;
-left: 215px;
 text-align: center;
 height: 3px;
 }
@@ -164,9 +158,9 @@ color: #02628B;
 }
 .oform {
 	background-color: #10B4FF;
-    width: 400px;
+    width: 25%;
     height: 100px;
-    margin-left: 518px;
+    margin-left: 38%;
     border-radius: 380px;
     outline: none;
     font-size: 30px;
@@ -252,10 +246,17 @@ color: #fff;
     .accordion-item--active .accordion-item__trigger {
     	background-color: #ccc;
     }
+    .accordion-item__trigger a  {
+        color: #fff;
+    }
     .accordion-item--active .accordion-item__content {
 		display: block;
 		background-color:  #114467;
 		transition: 0.8s;
+        color: #fff;        
+    }
+    .accordion-item--active .accordion-item__content a {
+        color: #fff;
     }
     .accordion-item__trigger {
     	padding: 20px;

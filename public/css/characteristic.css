@@ -197,3 +197,16 @@ border:1px solid #00AEFF;
 		left: 25vw;
 	}
 }	
+@media screen and (max-height: 812px) {
+	.modal-content2 .input4 {
+		width: 213px;
+		height: 63px;
+	}
+	.modal-content2 .input2 {
+		top: 20vh;
+		width: 57vw;
+	}
+	.modal-content2 #block2 {
+		top: 23vh;
+	}
+}

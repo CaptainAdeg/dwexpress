@@ -62,19 +62,8 @@
 			<li><p>Художественные ценности (картины, иконы, антиквариат, книги, выпущенные до 1950 г.);
 </p></li>
 		</ul>
-	</div><br>
-	<div class="feedbacks">
-		<div class="feed-header"><h1>Частые вопросы</h1><br>
-		<h2 id="src4-6">Задать свой вопрос</h2></div>
-		<div class="feed-display">
-			<ul>
-				<li><p>Welcome to DWE</p></li>
-				<li><p>Welcome to DWE</p></li>
-				<li><p>Welcome to DWE</p></li>
-				<li><p>Welcome to DWE</p></li>
-			</ul>
-		</div>
 	</div>
+
 </section>
 <script src="public/js/mob.js"></script>
 <?php require_once "modal/modal.php"; ?>

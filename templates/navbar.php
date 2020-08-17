@@ -73,20 +73,12 @@
             top: 0;
         }
     }
-    #content1 a{
-        padding: 12px 89px;
-        
+    #content1 a, #content2 a, #content3 a, #content4 a{
+    width: 24vw;
+    margin-top: 2vh;
+    height: 4vh;
     }
-    #content2 a{
-        padding: 12px 80px;
-    }
-    #content3 a{
-        padding: 12px 100px;
-    }
-    #content4 a{
-        padding: 12px 50px;
-    }
-    
+
 </style>
 <link rel="stylesheet" href="public/css/header.css">
 <link rel="stylesheet" href="public/css/style.css">
@@ -141,66 +133,64 @@
                 <div class="accordion-item__trigger">
                     <a href="index.php">Онлайн сервисы</a>
                 </div>
-                <div class="accordion-item__content">
-                    <a href="profile.php">Личный кабинет</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="index.php#but1">Отслеживание</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="index.php#but2">Калькулятор</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="index.php#but3">Обратный звонок</a>
-                </div>
+                
+                    <a href="profile.php"><div class="accordion-item__content">Личный кабинет </div></a>
+               
+                
+                    <a href="index.php#but1"><div class="accordion-item__content">Отслеживание</div></a>
+                
+                
+                    <a href="index.php#but2"><div class="accordion-item__content">Калькулятор</div></a>
+                
+                
+                    <a href="index.php#but3"><div class="accordion-item__content">Обратный звонок</div></a>
+                
             </div>
             <div class="accordion-item">
                 <div class="accordion-item__trigger">
                     <a href="info.php">О компаний</a>
                 </div>
-                <div class="accordion-item__content">
-                    <a href="info.php#all">Все контакты</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="info.php#src2-2">Наша деятельность</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="info.php#gallery">Галерея</a>
-                </div>
+                
+                    <a href="info.php#all"><div class="accordion-item__content">Все контакты</div></a>
+               
+                
+                    <a href="info.php#src2-2"><div class="accordion-item__content">Наша деятельность</div></a>
+        
+                
             </div>
             <div class="accordion-item">
                 <div class="accordion-item__trigger">
                     <a href="tarifs.php">Тарифы и услуги</a>
                 </div>
-                <div class="accordion-item__content">
-                    <a href="tarifs.php#src3-1">Сроки доставки</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="tarifs.php#src3-2">Страхование</a>
-                </div>
+                
+                    <a href="tarifs.php#src3-1"><div class="accordion-item__content">Сроки доставки</div></a>
+                
+                
+                    <a href="tarifs.php#src3-2"><div class="accordion-item__content">Страхование</div></a>
+                
             </div>
             <div class="accordion-item">
                 <div class="accordion-item__trigger">
                     <a href="knowledge.php">Полезно знать</a>
                 </div>
-                <div class="accordion-item__content">
-                    <a href="knowledge.php#src4-1">Типовый договор</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="knowledge.php#src4-2">Способы оплаты</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="knowledge.php#src4-3">Функций выбора упаковки</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="knowledge.php#src4-4">Закон о Почте</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="knowledge.php#src4-5">Запрещено перевозить</a>
-                </div>
-                <div class="accordion-item__content">
-                    <a href="knowledge.php#src4-6">Частые вопросы</a>
-                </div>
+                
+                    <a href="knowledge.php#src4-1"><div class="accordion-item__content">Типовый договор</div></a>
+                
+                
+                    <a href="knowledge.php#src4-2"><div class="accordion-item__content">Способы оплаты</div></a>
+                
+                
+                    <a href="knowledge.php#src4-3"><div class="accordion-item__content">Функций выбора упаковки</div></a>
+                
+                
+                    <a href="knowledge.php#src4-4"><div class="accordion-item__content">Закон о Почте</div></a>
+                
+                
+                    <a href="knowledge.php#src4-5"><div class="accordion-item__content">Запрещено перевозить</div></a>
+                
+                
+                    <a href="knowledge.php#src4-6"><div class="accordion-item__content">Частые вопросы</div></a>
+                
             </div>
         </div>
     </div>

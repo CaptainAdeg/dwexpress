@@ -14,66 +14,66 @@
                 <div class="foot-accordion-item__trigger">
                     Онлайн сервисы
                 </div>
-                <div class="foot-accordion-item__content">
-                    Личный кабинет
-                </div>
-                <div class="foot-accordion-item__content">
-                    Отслеживание
-                </div>
-                <div class="foot-accordion-item__content">
-                    Калькулятор
-                </div>
-                <div class="foot-accordion-item__content">
-                    Обратный звонок
-                </div>
+                
+                    <a href="profile.php"><div class="foot-accordion-item__content">Личный кабинет</div></a>
+                
+                
+                    <a onclick="document.getElementById('myModal1').style.display='block'"><div class="foot-accordion-item__content">Отслеживание</div></a>
+                
+                
+                    <a onclick="document.getElementById('myModal2').style.display='block'"><div class="foot-accordion-item__content">Калькулятор</div></a>
+                
+                
+                    <a onclick="document.getElementById('myModal3').style.display='block'"><div class="foot-accordion-item__content">Обратный звонок</div></a>
+                
             </div>
             <div class="foot-accordion-item">
                 <div class="foot-accordion-item__trigger">
                     О компании
                 </div>
-                <div class="foot-accordion-item__content">
-                    Все контакты
-                </div>
-                <div class="foot-accordion-item__content">
-                    Наша деятельность
-                </div>
-                <div class="foot-accordion-item__content">
-                    Галерея
-                </div>
+                <a href="info.php#all"> <div class="foot-accordion-item__content">Все контакты</div></a>
+                <a href="info.php#src2-2"><div class="foot-accordion-item__content">Наша деятельность</div></a>
             </div>
             <div class="foot-accordion-item">
                 <div class="foot-accordion-item__trigger">
                     Тарифы и услуги
                 </div>
-                <div class="foot-accordion-item__content">
-                    Сроки доставки
-                </div>
-                <div class="foot-accordion-item__content">
-                    Страхование
-                </div>
+                <a href="tarifs.php#src3-1"><div class="foot-accordion-item__content">Сроки доставки</div></a>
+                <a href="tarifs.php#src3-2"><div class="foot-accordion-item__content">Страхование
+                </div></a>
             </div>
             <div class="foot-accordion-item">
                 <div class="foot-accordion-item__trigger">
                     Полезно знать
                 </div>
-                <div class="foot-accordion-item__content">
+                
+                <a href="knowledge.php#src4-1"><div class="foot-accordion-item__content">
                     Типовый договор
-                </div>
-                <div class="foot-accordion-item__content">
+                </div></a>
+                <a href="knowledge.php#src4-2"><div class="foot-accordion-item__content">
                     Способ оплаты
-                </div>
-                <div class="foot-accordion-item__content">
+                </div></a>
+                
+                <a href="knowledge.php#src4-3"><div class="foot-accordion-item__content">
                     Функций выбора упаковки
-                </div>
-                <div class="foot-accordion-item__content">
+                </div></a>
+                
+                <a href="knowledge.php#src4-4"><div class="foot-accordion-item__content">
                     Закон о Почте
-                </div>
-                <div class="foot-accordion-item__content">
+                </div></a>
+
+                <a href="knowledge.php#src4-5"><div class="foot-accordion-item__content">
                     Запрещено перевозить
-                </div>
-                <div class="foot-accordion-item__content">
+                </div></a>
+
+                <a href="knowledge.php#src4-4"><div class="foot-accordion-item__content">
+                    Закон о Почте
+                </div></a>
+                
+                <a href="knowledge.php#src4-6"><div class="foot-accordion-item__content">
                     Частые вопросы
-                </div>
+                </div></a>
+                
             </div>
         </div>
     </div>
@@ -138,8 +138,8 @@
     </div>
     <div class="footer-bot">
     <div class="connect">
-        <a href="index.php"><img class="conlogo" id="dwe" src="public/img/logobot.svg"></a>
-        <a href="instagram.com"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a>
+        <a href="index.php" style="margin-left: 20vw;"><img class="conlogo" id="dwe" src="public/img/logobot.svg"></a>
+        <a href="instagram.com" style="margin-left: 23vw;"><img class="conlogo" id="insta" src="public/img/social/instagram.svg"></a>
         <a ><img class="conlogo" id="wp" src="public/img/social/wp.svg"></a>
         <a onclick="document.getElementById('myModal5').style.display='block'"><img class="conlogo" id="whapp"src="public/img/social/wechat.svg"></a>
     </div>
